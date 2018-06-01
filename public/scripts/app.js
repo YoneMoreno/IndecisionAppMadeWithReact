@@ -1,9 +1,18 @@
 'use strict';
 
 var template = React.createElement(
-  'p',
+  'div',
   null,
-  'This is JSX from App.js'
+  React.createElement(
+    'h1',
+    null,
+    'Indecision App'
+  ),
+  React.createElement(
+    'p',
+    null,
+    'This is some text'
+  )
 );
 
 ReactDOM.render(template, document.getElementById('app'));
