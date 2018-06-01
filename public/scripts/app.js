@@ -1,17 +1,24 @@
 'use strict';
 
+var appObject = {
+    title: 'INDECISION best app',
+    subtitle: 'WIth react',
+    itemOne: 'live-server',
+    itemTwo: 'babel'
+};
+
 var template = React.createElement(
     'div',
     null,
     React.createElement(
         'h1',
         null,
-        'Enoy Moreno Jimenez'
+        appObject.title
     ),
     React.createElement(
         'p',
         null,
-        'This is some text'
+        appObject.subtitle
     ),
     React.createElement(
         'ol',
@@ -19,15 +26,21 @@ var template = React.createElement(
         React.createElement(
             'li',
             null,
-            'Item one'
+            appObject.itemOne
         ),
         React.createElement(
             'li',
             null,
-            'Item two'
+            appObject.itemTwo
         )
     )
 );
+
+var user = {
+    name: 'Andrew',
+    age: 99,
+    location: 'Neverlands'
+};
 
 var templateTwo = React.createElement(
     'div',
@@ -35,20 +48,22 @@ var templateTwo = React.createElement(
     React.createElement(
         'h1',
         null,
-        'Yone Moreno Jimenez'
+        user.name
     ),
     React.createElement(
         'p',
         null,
-        'Age: 21'
+        'Age: ',
+        user.age
     ),
     React.createElement(
         'p',
         null,
-        'Location: Las Palmas'
+        'Location: ',
+        user.location
     )
 );
 
 var app = document.getElementById('app');
 
-ReactDOM.render(templateTwo, app);
+ReactDOM.render(template, app);
