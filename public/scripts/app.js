@@ -26,6 +26,8 @@ var onClickRemoveAll = function onClickRemoveAll() {
     renderApp();
 };
 
+var numbers = [100, 10, 1];
+
 var renderApp = function renderApp() {
     var template = React.createElement(
         'div',
@@ -55,19 +57,13 @@ var renderApp = function renderApp() {
             { onClick: onClickRemoveAll },
             'remove all options'
         ),
-        [React.createElement(
-            'p',
-            { key: '1' },
-            'a'
-        ), React.createElement(
-            'p',
-            { key: '2' },
-            'b'
-        ), React.createElement(
-            'p',
-            { key: '3' },
-            '99'
-        )],
+        numbers.map(function (number, index) {
+            return React.createElement(
+                'p',
+                { key: index },
+                number
+            );
+        }),
         React.createElement(
             'ol',
             null,
