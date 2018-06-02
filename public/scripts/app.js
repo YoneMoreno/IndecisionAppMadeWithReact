@@ -107,7 +107,10 @@ var Options = function (_React$Component4) {
     function Options() {
         _classCallCheck(this, Options);
 
-        return _possibleConstructorReturn(this, (Options.__proto__ || Object.getPrototypeOf(Options)).apply(this, arguments));
+        var _this4 = _possibleConstructorReturn(this, (Options.__proto__ || Object.getPrototypeOf(Options)).call(this));
+
+        _this4.handleRemoveAll = _this4.handleRemoveAll.bind(_this4);
+        return _this4;
     }
 
     _createClass(Options, [{
@@ -127,7 +130,7 @@ var Options = function (_React$Component4) {
                 }),
                 React.createElement(
                     'button',
-                    { onClick: this.handleRemoveAll.bind(this) },
+                    { onClick: this.handleRemoveAll },
                     'Remove all options'
                 )
             );

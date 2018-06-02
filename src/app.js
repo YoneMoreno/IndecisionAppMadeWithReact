@@ -40,6 +40,11 @@ class Action extends React.Component {
 }
 
 class Options extends React.Component {
+    constructor() {
+        super();
+        this.handleRemoveAll = this.handleRemoveAll.bind(this);
+    }
+
     handleRemoveAll() {
         console.log(this.props.options);
         // alert('handleRemoveAll');
@@ -51,7 +56,7 @@ class Options extends React.Component {
                 {
                     this.props.options.map((option) => <Option option={option} key={option}/>)
                 }
-                <button onClick={this.handleRemoveAll.bind(this)}>Remove all options</button>
+                <button onClick={this.handleRemoveAll}>Remove all options</button>
             </div>
         );
     }
