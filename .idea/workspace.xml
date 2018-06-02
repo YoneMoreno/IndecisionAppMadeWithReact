@@ -51,8 +51,8 @@
       <file leaf-file-name="es6-classes1.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/playground/es6-classes1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="219">
+              <caret line="59" column="37" lean-forward="false" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -204,7 +204,7 @@
       <updated>1527888796466</updated>
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
-      <workItem from="1527927275076" duration="7746000" />
+      <workItem from="1527927275076" duration="9119000" />
     </task>
     <task id="LOCAL-00001" summary="conditional rendering">
       <created>1527895882852</created>
@@ -451,11 +451,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527944801522</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="finished es6 classes part1">
+      <created>1527946506434</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1527946506434</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24254000" />
+    <option name="totallyTimeSpent" value="25627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -489,7 +496,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="With es5 functions we had acess to arguments object" />
     <MESSAGE value="ES6 ARROW FUNCTION DO NOT HAVE an argument object" />
     <MESSAGE value="An inner anonymous function doest not have access to outter this with es5 functions" />
     <MESSAGE value="With es6 arrow functions we can access the this being provided by the context" />
@@ -514,7 +520,8 @@
     <MESSAGE value="We should a ternary operator to hide and show details" />
     <MESSAGE value="Clases es6" />
     <MESSAGE value="finished es6 classes part1" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished es6 classes part1" />
+    <MESSAGE value="Add a sub class traveller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a sub class traveller" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -644,8 +651,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/playground/es6-classes1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="219">
+          <caret line="59" column="37" lean-forward="false" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
           <folding />
         </state>
       </provider>

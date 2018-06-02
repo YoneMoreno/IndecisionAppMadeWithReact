@@ -14,8 +14,52 @@ class Person {
     }
 }
 
-const me = new Person('Tori Guillen', 50);
-const me2 = new Person();
-console.log(me, me2);
-console.log(me2.getDescription());
+class Student extends Person {
+    constructor(name, age, major) {
+        super(name, age);
+        this.major = major;
+    }
+
+    hasMajor() {
+        return !!this.major;
+    }
+
+    getDescription() {
+        let description = super.getDescription();
+        if (this.hasMajor()) {
+            description += ` The major which is studying is: ${this.major}.`;
+        }
+        return description;
+    }
+}
+
+class Traveler extends Person {
+    constructor(name, age, homeLocation) {
+        super(name, age);
+        this.homeLocation = homeLocation;
+    }
+
+    hasHomeLocation() {
+        return !!this.homeLocation;
+    }
+
+    getGreeting() {
+        let greeting = super.getGreeting();
+        if (this.hasHomeLocation()) {
+            greeting += ` I am visiting from ${this.homeLocation}`;
+        }
+        return greeting;
+    }
+}
+
+const me = new Student('Tori Guillen', 50, 'Art');
+console.log(me);
+console.log(me.hasMajor());
 console.log(me.getDescription());
+console.log(me.getGreeting());
+const other = new Traveler('Mahy', 32);
+console.log(other);
+console.log(other.getGreeting());
+const fanaticTraveler = new Traveler('Ana', 44, 'Boston');
+console.log(fanaticTraveler);
+console.log(fanaticTraveler.getGreeting());
