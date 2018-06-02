@@ -6,6 +6,13 @@ var app = {
     options: ['one', 2]
 };
 
+var onFormSubmit = function onFormSubmit(e) {
+    e.preventDefault();
+
+    var option = e.target.elements.option.value;
+    console.log('form submitted', option);
+};
+
 var template = React.createElement(
     'div',
     null,
@@ -37,6 +44,16 @@ var template = React.createElement(
             null,
             'Item Two'
         )
+    ),
+    React.createElement(
+        'form',
+        { onSubmit: onFormSubmit },
+        React.createElement('input', { type: 'text', name: 'option' }),
+        React.createElement(
+            'button',
+            null,
+            'Add Option'
+        )
     )
 );
 
@@ -56,4 +73,5 @@ function getLocation(userLocation) {
         );
     }
 }
+
 ReactDOM.render(template, document.getElementById('app'));

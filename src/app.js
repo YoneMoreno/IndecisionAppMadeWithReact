@@ -4,6 +4,13 @@ const app = {
     options: ['one', 2]
 };
 
+const onFormSubmit = (e) => {
+    e.preventDefault();
+
+    const option = e.target.elements.option.value;
+    console.log('form submitted', option);
+};
+
 const template = (
     <div>
         <h1>{app.title}</h1>
@@ -13,6 +20,10 @@ const template = (
             <li>Item One</li>
             <li>Item Two</li>
         </ol>
+        <form onSubmit={onFormSubmit}>
+            <input type="text" name="option"/>
+            <button>Add Option</button>
+        </form>
     </div>
 );
 
@@ -27,5 +38,6 @@ function getLocation(userLocation) {
         return <p>Location: {userLocation}</p>;
     }
 }
-    ReactDOM.render(template, document.getElementById('app'));
+
+ReactDOM.render(template, document.getElementById('app'));
 
