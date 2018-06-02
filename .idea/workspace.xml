@@ -26,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app.js">
+      <file leaf-file-name="es6-let-const.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/playground/es6-let-const.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="24">
+              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -55,8 +55,9 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/public/scripts/app.js" />
         <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/public/scripts/app.js" />
+        <option value="$PROJECT_DIR$/src/playground/es6-let-const.js" />
       </list>
     </option>
   </component>
@@ -158,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527888796466</updated>
       <workItem from="1527888797984" duration="472000" />
-      <workItem from="1527889552866" duration="7346000" />
+      <workItem from="1527889552866" duration="8931000" />
     </task>
     <task id="LOCAL-00001" summary="conditional rendering">
       <created>1527895882852</created>
@@ -181,11 +182,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527896544414</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Using and operator to render conditionally">
+      <created>1527896977750</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527896977750</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7818000" />
+    <option name="totallyTimeSpent" value="9403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -221,7 +229,8 @@
     <MESSAGE value="conditional rendering" />
     <MESSAGE value="If one expression result is undefined the element wont be visible on the UI: Using conditional rendering to show a paragraph if the userLocation is defined" />
     <MESSAGE value="Using ternary operator to render user.name or Anonymous as default" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using ternary operator to render user.name or Anonymous as default" />
+    <MESSAGE value="Using and operator to render conditionally" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using and operator to render conditionally" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -268,6 +277,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="31" column="55" lean-forward="false" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -276,10 +293,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
+    <entry file="file://$PROJECT_DIR$/src/playground/es6-let-const.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="24">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
           <folding />
         </state>
       </provider>
