@@ -1,35 +1,31 @@
-const appObject = {
+const app = {
     title: 'INDECISION best app',
-    subtitle: 'WIth react',
-    itemOne: 'live-server',
-    itemTwo: 'babel'
+    subtitle: 'Let you life being in computers hands',
+    options: ['one', 2]
 };
 
-var template = (
+const template = (
     <div>
-        <h1>{appObject.title}</h1>
-        <p>{appObject.subtitle}</p>
+        <h1>{app.title}</h1>
+        {app.subtitle && <p>{app.subtitle}</p>}
+        <p>{(app.options && app.options.length > 0) ? 'Here are your options' : 'No options'}</p>
         <ol>
-            <li>{appObject.itemOne}</li>
-            <li>{appObject.itemTwo}</li>
+            <li>Item One</li>
+            <li>Item Two</li>
         </ol>
     </div>
 );
 
 const user = {
-    name: 'Andrew',
-    age: 99,
-    location: 'Neverlands'
+    name: 'Enoy',
+    age: 17,
+    location: 'GC'
 };
 
-const templateTwo = (
-    <div>
-        <h1>{user.name}</h1>
-        <p>Age: {user.age}</p>
-        <p>Location: {user.location}</p>
-    </div>
-);
+function getLocation(userLocation) {
+    if (userLocation) {
+        return <p>Location: {userLocation}</p>;
+    }
+}
+    ReactDOM.render(template, document.getElementById('app'));
 
-const app = document.getElementById('app');
-
-ReactDOM.render(template, app);

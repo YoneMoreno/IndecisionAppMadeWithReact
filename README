@@ -1,0 +1,7 @@
+Iniciar servidor:
+
+live-server public
+
+Iniciar babel para convertir react a navegador:
+
+babel src/app.js --out-file public/scripts/app.js --presets=env,react  --watch

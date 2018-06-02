@@ -1,10 +1,9 @@
 'use strict';
 
-var appObject = {
+var app = {
     title: 'INDECISION best app',
-    subtitle: 'WIth react',
-    itemOne: 'live-server',
-    itemTwo: 'babel'
+    subtitle: 'Let you life being in computers hands',
+    options: ['one', 2]
 };
 
 var template = React.createElement(
@@ -13,12 +12,17 @@ var template = React.createElement(
     React.createElement(
         'h1',
         null,
-        appObject.title
+        app.title
+    ),
+    app.subtitle && React.createElement(
+        'p',
+        null,
+        app.subtitle
     ),
     React.createElement(
         'p',
         null,
-        appObject.subtitle
+        app.options && app.options.length > 0 ? 'Here are your options' : 'No options'
     ),
     React.createElement(
         'ol',
@@ -26,44 +30,30 @@ var template = React.createElement(
         React.createElement(
             'li',
             null,
-            appObject.itemOne
+            'Item One'
         ),
         React.createElement(
             'li',
             null,
-            appObject.itemTwo
+            'Item Two'
         )
     )
 );
 
 var user = {
-    name: 'Andrew',
-    age: 99,
-    location: 'Neverlands'
+    name: 'Enoy',
+    age: 17,
+    location: 'GC'
 };
 
-var templateTwo = React.createElement(
-    'div',
-    null,
-    React.createElement(
-        'h1',
-        null,
-        user.name
-    ),
-    React.createElement(
-        'p',
-        null,
-        'Age: ',
-        user.age
-    ),
-    React.createElement(
-        'p',
-        null,
-        'Location: ',
-        user.location
-    )
-);
-
-var app = document.getElementById('app');
-
-ReactDOM.render(template, app);
+function getLocation(userLocation) {
+    if (userLocation) {
+        return React.createElement(
+            'p',
+            null,
+            'Location: ',
+            userLocation
+        );
+    }
+}
+ReactDOM.render(template, document.getElementById('app'));
