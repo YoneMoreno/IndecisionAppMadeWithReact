@@ -111,9 +111,10 @@ var Options = function (_React$Component4) {
     }
 
     _createClass(Options, [{
-        key: 'handleResetAll',
-        value: function handleResetAll() {
-            alert('handleResetAll');
+        key: 'handleRemoveAll',
+        value: function handleRemoveAll() {
+            console.log(this.props.options);
+            // alert('handleRemoveAll');
         }
     }, {
         key: 'render',
@@ -126,8 +127,8 @@ var Options = function (_React$Component4) {
                 }),
                 React.createElement(
                     'button',
-                    { onClick: this.handleResetAll },
-                    'reset all options'
+                    { onClick: this.handleRemoveAll.bind(this) },
+                    'Remove all options'
                 )
             );
         }

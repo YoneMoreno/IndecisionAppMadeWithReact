@@ -31,8 +31,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="61" column="77" lean-forward="false" selection-start-line="61" selection-start-column="77" selection-end-line="61" selection-end-column="77" />
+            <state relative-caret-position="440">
+              <caret line="53" column="64" lean-forward="false" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -215,7 +215,7 @@
       <updated>1527888796466</updated>
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
-      <workItem from="1527927275076" duration="13782000" />
+      <workItem from="1527927275076" duration="14453000" />
     </task>
     <task id="LOCAL-00001" summary="conditional rendering">
       <created>1527895882852</created>
@@ -518,11 +518,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527951421259</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="We have attached onCLick to Action, and Options and we have added onSubmit to AddOption form. We have implemented an alert when we submit the form in AddOption.">
+      <created>1527952599513</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1527952599513</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30290000" />
+    <option name="totallyTimeSpent" value="30961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -556,7 +563,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="We need to use className as a JSX attribute because class is a js keyword" />
     <MESSAGE value="onClick lets us specify a function to be executed when we press a button" />
     <MESSAGE value="We can trigger a function with each button" />
     <MESSAGE value="We need to manually rerender the app after the counter has changed because JSX has no data binding" />
@@ -581,7 +587,8 @@
     <MESSAGE value="Add top level component IndecisionApp and add a Option component nested into Options ;=)" />
     <MESSAGE value="Add title, subtitle andoptions props" />
     <MESSAGE value="We render an Option for each item in options array ;=)" />
-    <option name="LAST_COMMIT_MESSAGE" value="We render an Option for each item in options array ;=)" />
+    <MESSAGE value="We have attached onCLick to Action, and Options and we have added onSubmit to AddOption form. We have implemented an alert when we submit the form in AddOption." />
+    <option name="LAST_COMMIT_MESSAGE" value="We have attached onCLick to Action, and Options and we have added onSubmit to AddOption form. We have implemented an alert when we submit the form in AddOption." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -719,8 +726,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="61" column="77" lean-forward="false" selection-start-line="61" selection-start-column="77" selection-end-line="61" selection-end-column="77" />
+        <state relative-caret-position="440">
+          <caret line="53" column="64" lean-forward="false" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
           <folding />
         </state>
       </provider>
