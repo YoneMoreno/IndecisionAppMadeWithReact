@@ -61,8 +61,8 @@
       <file leaf-file-name="es6-arrow-function2.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/playground/es6-arrow-function2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            <state relative-caret-position="48">
+              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -199,7 +199,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527888796466</updated>
       <workItem from="1527888797984" duration="472000" />
-      <workItem from="1527889552866" duration="11937000" />
+      <workItem from="1527889552866" duration="11991000" />
     </task>
     <task id="LOCAL-00001" summary="conditional rendering">
       <created>1527895882852</created>
@@ -278,11 +278,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527922611186</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="With es5 functions we had acess to arguments object">
+      <created>1527923101809</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1527923101809</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12409000" />
+    <option name="totallyTimeSpent" value="12463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -326,7 +333,8 @@
     <MESSAGE value="We prefer to use const and let" />
     <MESSAGE value="We can use const in all our app" />
     <MESSAGE value="Using arrow functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using arrow functions" />
+    <MESSAGE value="With es5 functions we had acess to arguments object" />
+    <option name="LAST_COMMIT_MESSAGE" value="With es5 functions we had acess to arguments object" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -409,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/playground/es6-arrow-function2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="48">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
