@@ -33,6 +33,10 @@ const renderApp = () => {
             <p>{(app.options && app.options.length > 0) ? 'Here are your options' : 'No options'}</p>
             <p>{app.options.length}</p>
             <button onClick={onClickRemoveAll}>remove all options</button>
+            {
+                [100, 10, 1, 'Tori']
+            }
+
             <ol>
                 <li>Item One</li>
                 <li>Item Two</li>

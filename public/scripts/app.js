@@ -55,6 +55,7 @@ var renderApp = function renderApp() {
             { onClick: onClickRemoveAll },
             'remove all options'
         ),
+        [100, 10, 1, 'Tori'],
         React.createElement(
             'ol',
             null,
