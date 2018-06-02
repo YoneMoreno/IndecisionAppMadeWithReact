@@ -31,8 +31,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="48" />
+            <state relative-caret-position="264">
+              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -175,14 +175,7 @@
       <updated>1527888796466</updated>
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
-      <workItem from="1527927275076" duration="18534000" />
-    </task>
-    <task id="LOCAL-00001" summary="conditional rendering">
-      <created>1527895882852</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1527895882852</updated>
+      <workItem from="1527927275076" duration="19008000" />
     </task>
     <task id="LOCAL-00002" summary="If one expression result is undefined the element wont be visible on the UI: Using conditional rendering to show a paragraph if the userLocation is defined">
       <created>1527896259728</created>
@@ -520,11 +513,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527957515396</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Add options array into IndecisionApp's state. Also we use options.length tod ecide if Action button is disabled.">
+      <created>1527958483134</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1527958483137</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35042000" />
+    <option name="totallyTimeSpent" value="35516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -558,7 +558,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="We can get the text wwritten in the form using the target of the evnt being fired (which is the form) and then getting the element array and inside it the input with name option, and then its value ;=)" />
     <MESSAGE value="We add options taken from the text written in the form." />
     <MESSAGE value="We can remove all options" />
     <MESSAGE value="Arrays can be renderer via jsx" />
@@ -583,7 +582,8 @@
     <MESSAGE value="Added methods to process each button's events and also added a binding" />
     <MESSAGE value="handle add, minus and reset with state" />
     <MESSAGE value="visibilityToggle rebuilt with React Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="visibilityToggle rebuilt with React Component" />
+    <MESSAGE value="Add options array into IndecisionApp's state. Also we use options.length tod ecide if Action button is disabled." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add options array into IndecisionApp's state. Also we use options.length tod ecide if Action button is disabled." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -721,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="48" />
+        <state relative-caret-position="264">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding />
         </state>
       </provider>
