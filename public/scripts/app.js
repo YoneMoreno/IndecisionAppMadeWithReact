@@ -21,6 +21,11 @@ var onFormSubmit = function onFormSubmit(e) {
     console.log('form submitted', option);
 };
 
+var onClickRemoveAll = function onClickRemoveAll() {
+    app.options = [];
+    renderApp();
+};
+
 var renderApp = function renderApp() {
     var template = React.createElement(
         'div',
@@ -44,6 +49,11 @@ var renderApp = function renderApp() {
             'p',
             null,
             app.options.length
+        ),
+        React.createElement(
+            'button',
+            { onClick: onClickRemoveAll },
+            'remove all options'
         ),
         React.createElement(
             'ol',
