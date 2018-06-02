@@ -17,5 +17,5 @@ class Person {
 const me = new Person('Tori Guillen', 50);
 const me2 = new Person();
 console.log(me, me2);
-console.log(me.getGreeting());
+console.log(me2.getDescription());
 console.log(me.getDescription());
