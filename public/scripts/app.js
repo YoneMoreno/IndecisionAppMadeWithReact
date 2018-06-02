@@ -55,7 +55,19 @@ var renderApp = function renderApp() {
             { onClick: onClickRemoveAll },
             'remove all options'
         ),
-        [100, 10, 1, 'Tori'],
+        [React.createElement(
+            'p',
+            { key: '1' },
+            'a'
+        ), React.createElement(
+            'p',
+            { key: '2' },
+            'b'
+        ), React.createElement(
+            'p',
+            { key: '3' },
+            '99'
+        )],
         React.createElement(
             'ol',
             null,
