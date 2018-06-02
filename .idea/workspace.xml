@@ -31,8 +31,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="384">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -182,7 +182,7 @@
       <updated>1527888796466</updated>
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
-      <workItem from="1527927275076" duration="1477000" />
+      <workItem from="1527927275076" duration="1919000" />
     </task>
     <task id="LOCAL-00001" summary="conditional rendering">
       <created>1527895882852</created>
@@ -352,11 +352,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527927767853</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="We can get the text wwritten in the form using the target of the evnt being fired (which is the form) and then getting the element array and inside it the input with name option, and then its value ;=)">
+      <created>1527928811656</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1527928811656</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17985000" />
+    <option name="totallyTimeSpent" value="18427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -388,7 +395,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add babel presets to translate react JSX into browser language" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="conditional rendering" />
     <MESSAGE value="If one expression result is undefined the element wont be visible on the UI: Using conditional rendering to show a paragraph if the userLocation is defined" />
     <MESSAGE value="Using ternary operator to render user.name or Anonymous as default" />
@@ -413,7 +421,8 @@
     <MESSAGE value="We need to manually rerender the app after the counter has changed because JSX has no data binding" />
     <MESSAGE value="We can add, substract and reset" />
     <MESSAGE value="Add examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add examples" />
+    <MESSAGE value="We can get the text wwritten in the form using the target of the evnt being fired (which is the form) and then getting the element array and inside it the input with name option, and then its value ;=)" />
+    <option name="LAST_COMMIT_MESSAGE" value="We can get the text wwritten in the form using the target of the evnt being fired (which is the form) and then getting the element array and inside it the input with name option, and then its value ;=)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -527,8 +536,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="384">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding />
         </state>
       </provider>
