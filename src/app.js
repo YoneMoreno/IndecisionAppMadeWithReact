@@ -2,6 +2,7 @@ class IndecisionApp extends React.Component {
     constructor(props) {
         super(props);
         this.handleDeleteOptions = this.handleDeleteOptions.bind(this);
+        this.handlePick = this.handlePick.bind(this);
         this.state = {
             options: ['One', 'Two', 'Thing four']
         };
@@ -13,13 +14,20 @@ class IndecisionApp extends React.Component {
         });
     }
 
+    handlePick() {
+        const random = Math.floor(Math.random() * this.state.options.length);
+        alert(this.state.options[random]);
+    }
+
     render() {
         const title = 'Indecision';
         const subtitle = 'Put your life into the hands of a computer!!';
         return (
             <div>
                 <Header title={title} subtitle={subtitle}/>
-                <Action hasOptions={this.state.options.length > 0}/>
+                <Action
+                    handlePick={this.handlePick}
+                    hasOptions={this.state.options.length > 0}/>
                 <Options
                     options={this.state.options}
                     handleDeleteOptions={this.handleDeleteOptions}/>
@@ -41,15 +49,11 @@ class Header extends React.Component {
 }
 
 class Action extends React.Component {
-    handleClick() {
-        alert('handleClick');
-    }
-
     render() {
         return (
             <div>
                 <button disabled={!this.props.hasOptions}
-                        onClick={this.handleClick}>
+                        onClick={this.props.handlePick}>
                     What should I choose?
                 </button>
             </div>

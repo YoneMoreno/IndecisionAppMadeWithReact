@@ -31,8 +31,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="408">
+              <caret line="17" column="75" lean-forward="false" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -175,14 +175,7 @@
       <updated>1527888796466</updated>
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
-      <workItem from="1527927275076" duration="19008000" />
-    </task>
-    <task id="LOCAL-00002" summary="If one expression result is undefined the element wont be visible on the UI: Using conditional rendering to show a paragraph if the userLocation is defined">
-      <created>1527896259728</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1527896259728</updated>
+      <workItem from="1527927275076" duration="19441000" />
     </task>
     <task id="LOCAL-00003" summary="Using ternary operator to render user.name or Anonymous as default">
       <created>1527896544414</created>
@@ -520,11 +513,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527958483137</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="We need to reference this.state.nameOfPropIntoStateObject even if we are writting inside setState method">
+      <created>1527958963498</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1527958963498</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35516000" />
+    <option name="totallyTimeSpent" value="35949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -558,7 +558,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="We add options taken from the text written in the form." />
     <MESSAGE value="We can remove all options" />
     <MESSAGE value="Arrays can be renderer via jsx" />
     <MESSAGE value="We can render an array of jsx, via jsx itself. Also we need to add a key to each array value" />
@@ -583,7 +582,8 @@
     <MESSAGE value="handle add, minus and reset with state" />
     <MESSAGE value="visibilityToggle rebuilt with React Component" />
     <MESSAGE value="Add options array into IndecisionApp's state. Also we use options.length tod ecide if Action button is disabled." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add options array into IndecisionApp's state. Also we use options.length tod ecide if Action button is disabled." />
+    <MESSAGE value="We need to reference this.state.nameOfPropIntoStateObject even if we are writting inside setState method" />
+    <option name="LAST_COMMIT_MESSAGE" value="We need to reference this.state.nameOfPropIntoStateObject even if we are writting inside setState method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -721,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="408">
+          <caret line="17" column="75" lean-forward="false" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
           <folding />
         </state>
       </provider>
