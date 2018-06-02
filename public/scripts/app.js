@@ -26,8 +26,6 @@ var onClickRemoveAll = function onClickRemoveAll() {
     renderApp();
 };
 
-var numbers = [100, 10, 1];
-
 var renderApp = function renderApp() {
     var template = React.createElement(
         'div',
@@ -57,26 +55,16 @@ var renderApp = function renderApp() {
             { onClick: onClickRemoveAll },
             'remove all options'
         ),
-        numbers.map(function (number, index) {
-            return React.createElement(
-                'p',
-                { key: index },
-                number
-            );
-        }),
         React.createElement(
             'ol',
             null,
-            React.createElement(
-                'li',
-                null,
-                'Item One'
-            ),
-            React.createElement(
-                'li',
-                null,
-                'Item Two'
-            )
+            app.options.map(function (option) {
+                return React.createElement(
+                    'li',
+                    { key: option },
+                    option
+                );
+            })
         ),
         React.createElement(
             'form',
