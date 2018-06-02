@@ -29,8 +29,8 @@
       <file leaf-file-name="es6-let-const.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/playground/es6-let-const.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state relative-caret-position="120">
+              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -159,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527888796466</updated>
       <workItem from="1527888797984" duration="472000" />
-      <workItem from="1527889552866" duration="8931000" />
+      <workItem from="1527889552866" duration="9086000" />
     </task>
     <task id="LOCAL-00001" summary="conditional rendering">
       <created>1527895882852</created>
@@ -189,11 +189,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527896977750</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="You can redefine a var which is a way to override previously defined values!">
+      <created>1527920103850</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1527920103850</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9403000" />
+    <option name="totallyTimeSpent" value="9558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -230,7 +237,8 @@
     <MESSAGE value="If one expression result is undefined the element wont be visible on the UI: Using conditional rendering to show a paragraph if the userLocation is defined" />
     <MESSAGE value="Using ternary operator to render user.name or Anonymous as default" />
     <MESSAGE value="Using and operator to render conditionally" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using and operator to render conditionally" />
+    <MESSAGE value="You can redefine a var which is a way to override previously defined values!" />
+    <option name="LAST_COMMIT_MESSAGE" value="You can redefine a var which is a way to override previously defined values!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -295,8 +303,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/playground/es6-let-const.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="120">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding />
         </state>
       </provider>
