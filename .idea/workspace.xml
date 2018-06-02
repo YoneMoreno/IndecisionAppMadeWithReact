@@ -21,8 +21,8 @@
       <file leaf-file-name="counter-example.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/playground/counter-example.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+            <state relative-caret-position="456">
+              <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -165,7 +165,7 @@
       <updated>1527888796466</updated>
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
-      <workItem from="1527927275076" duration="16049000" />
+      <workItem from="1527927275076" duration="16862000" />
     </task>
     <task id="LOCAL-00001" summary="conditional rendering">
       <created>1527895882852</created>
@@ -489,11 +489,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527953300715</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Added methods to process each button's events and also added a binding">
+      <created>1527954849276</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1527954849276</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32557000" />
+    <option name="totallyTimeSpent" value="33370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -527,7 +534,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="We need to manually rerender the app after the counter has changed because JSX has no data binding" />
     <MESSAGE value="We can add, substract and reset" />
     <MESSAGE value="Add examples" />
     <MESSAGE value="We can get the text wwritten in the form using the target of the evnt being fired (which is the form) and then getting the element array and inside it the input with name option, and then its value ;=)" />
@@ -552,7 +558,8 @@
     <MESSAGE value="We have attached onCLick to Action, and Options and we have added onSubmit to AddOption form. We have implemented an alert when we submit the form in AddOption." />
     <MESSAGE value="bind function is useful to pass in the context  when we are calling methods from events" />
     <MESSAGE value="It is better to include the bind function into the Component constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="It is better to include the bind function into the Component constructor" />
+    <MESSAGE value="Added methods to process each button's events and also added a binding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added methods to process each button's events and also added a binding" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -690,8 +697,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/playground/counter-example.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        <state relative-caret-position="456">
+          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
           <folding />
         </state>
       </provider>
