@@ -31,8 +31,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            <state relative-caret-position="408">
+              <caret line="41" column="62" lean-forward="false" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -215,7 +215,7 @@
       <updated>1527888796466</updated>
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
-      <workItem from="1527927275076" duration="11379000" />
+      <workItem from="1527927275076" duration="12045000" />
     </task>
     <task id="LOCAL-00001" summary="conditional rendering">
       <created>1527895882852</created>
@@ -497,11 +497,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527949410278</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Add top level component IndecisionApp and add a Option component nested into Options ;=)">
+      <created>1527950174531</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1527950174531</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27887000" />
+    <option name="totallyTimeSpent" value="28553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -535,8 +542,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="We can define a function as an object method" />
-    <MESSAGE value="map is different from forEach because returns a new array with its elements transformed" />
     <MESSAGE value="We can use map to multiply each number" />
     <MESSAGE value="We need to use className as a JSX attribute because class is a js keyword" />
     <MESSAGE value="onClick lets us specify a function to be executed when we press a button" />
@@ -560,7 +565,9 @@
     <MESSAGE value="Creating our first react component" />
     <MESSAGE value="Create Action class" />
     <MESSAGE value="Add two new cclasses" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add two new cclasses" />
+    <MESSAGE value="Add top level component IndecisionApp and add a Option component nested into Options ;=)" />
+    <MESSAGE value="Add title, subtitle andoptions props" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add title, subtitle andoptions props" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -698,8 +705,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        <state relative-caret-position="408">
+          <caret line="41" column="62" lean-forward="false" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
           <folding />
         </state>
       </provider>
