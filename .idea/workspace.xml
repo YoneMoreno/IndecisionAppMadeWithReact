@@ -61,8 +61,8 @@
       <file leaf-file-name="es6-arrow-function2.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/playground/es6-arrow-function2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="291">
+              <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -199,7 +199,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527888796466</updated>
       <workItem from="1527888797984" duration="472000" />
-      <workItem from="1527889552866" duration="11991000" />
+      <workItem from="1527889552866" duration="12477000" />
     </task>
     <task id="LOCAL-00001" summary="conditional rendering">
       <created>1527895882852</created>
@@ -285,11 +285,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527923101809</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ES6 ARROW FUNCTION DO NOT HAVE an argument object">
+      <created>1527923159005</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1527923159005</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12463000" />
+    <option name="totallyTimeSpent" value="12949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -334,7 +341,8 @@
     <MESSAGE value="We can use const in all our app" />
     <MESSAGE value="Using arrow functions" />
     <MESSAGE value="With es5 functions we had acess to arguments object" />
-    <option name="LAST_COMMIT_MESSAGE" value="With es5 functions we had acess to arguments object" />
+    <MESSAGE value="ES6 ARROW FUNCTION DO NOT HAVE an argument object" />
+    <option name="LAST_COMMIT_MESSAGE" value="ES6 ARROW FUNCTION DO NOT HAVE an argument object" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -417,8 +425,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/playground/es6-arrow-function2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="291">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding />
         </state>
       </provider>
