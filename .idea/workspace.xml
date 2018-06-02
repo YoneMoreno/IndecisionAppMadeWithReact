@@ -29,8 +29,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
-              <caret line="32" column="23" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            <state relative-caret-position="72">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -167,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527888796466</updated>
       <workItem from="1527888797984" duration="472000" />
-      <workItem from="1527889552866" duration="15350000" />
+      <workItem from="1527889552866" duration="15603000" />
     </task>
     <task id="LOCAL-00001" summary="conditional rendering">
       <created>1527895882852</created>
@@ -316,11 +316,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527925902100</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="We need to manually rerender the app after the counter has changed because JSX has no data binding">
+      <created>1527926532101</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1527926532101</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15822000" />
+    <option name="totallyTimeSpent" value="16075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -374,7 +381,8 @@
     <MESSAGE value="We need to use className as a JSX attribute because class is a js keyword" />
     <MESSAGE value="onClick lets us specify a function to be executed when we press a button" />
     <MESSAGE value="We can trigger a function with each button" />
-    <option name="LAST_COMMIT_MESSAGE" value="We can trigger a function with each button" />
+    <MESSAGE value="We need to manually rerender the app after the counter has changed because JSX has no data binding" />
+    <option name="LAST_COMMIT_MESSAGE" value="We need to manually rerender the app after the counter has changed because JSX has no data binding" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -457,8 +465,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="32" column="23" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        <state relative-caret-position="72">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
