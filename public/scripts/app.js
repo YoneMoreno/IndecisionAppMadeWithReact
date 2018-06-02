@@ -26,6 +26,12 @@ var onClickRemoveAll = function onClickRemoveAll() {
     renderApp();
 };
 
+var onMakeDecision = function onMakeDecision() {
+    var random = Math.floor(Math.random() * app.options.length);
+    var option = app.options[random];
+    alert(option);
+};
+
 var renderApp = function renderApp() {
     var template = React.createElement(
         'div',
@@ -52,16 +58,21 @@ var renderApp = function renderApp() {
         ),
         React.createElement(
             'button',
+            { disabled: app.options.length === 0, onClick: onMakeDecision },
+            'What should I do?'
+        ),
+        React.createElement(
+            'button',
             { onClick: onClickRemoveAll },
             'remove all options'
         ),
         React.createElement(
             'ol',
             null,
-            app.options.map(function (option) {
+            app.options.map(function (option, index) {
                 return React.createElement(
                     'li',
-                    { key: option },
+                    { key: option + index },
                     option
                 );
             })
