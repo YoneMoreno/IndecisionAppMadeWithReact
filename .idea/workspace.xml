@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c41c42e0-b5d7-4533-9a3a-6ce074a7c520" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/playground/jsx-indecision.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/app.js" afterPath="$PROJECT_DIR$/public/scripts/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.js" afterPath="$PROJECT_DIR$/src/app.js" />
@@ -32,8 +31,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="456">
+              <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -216,7 +215,7 @@
       <updated>1527888796466</updated>
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
-      <workItem from="1527927275076" duration="9902000" />
+      <workItem from="1527927275076" duration="10323000" />
     </task>
     <task id="LOCAL-00001" summary="conditional rendering">
       <created>1527895882852</created>
@@ -477,11 +476,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527947881932</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Creating our first react component">
+      <created>1527948676526</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1527948676526</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26410000" />
+    <option name="totallyTimeSpent" value="26831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -515,8 +521,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="ES6 ARROW FUNCTION DO NOT HAVE an argument object" />
-    <MESSAGE value="An inner anonymous function doest not have access to outter this with es5 functions" />
     <MESSAGE value="With es6 arrow functions we can access the this being provided by the context" />
     <MESSAGE value="We can define a function as an object method" />
     <MESSAGE value="map is different from forEach because returns a new array with its elements transformed" />
@@ -540,7 +544,9 @@
     <MESSAGE value="Clases es6" />
     <MESSAGE value="finished es6 classes part1" />
     <MESSAGE value="Add a sub class traveller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a sub class traveller" />
+    <MESSAGE value="Creating our first react component" />
+    <MESSAGE value="Create Action class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Action class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -678,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="456">
+          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding />
         </state>
       </provider>
