@@ -200,4 +200,4 @@ var Option = function Option(props) {
     );
 };
 
-ReactDOM.render(React.createElement(IndecisionApp, { options: ['Barrial', 'San Isidro'] }), document.getElementById('app'));
+ReactDOM.render(React.createElement(IndecisionApp, null), document.getElementById('app'));

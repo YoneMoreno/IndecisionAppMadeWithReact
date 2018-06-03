@@ -31,8 +31,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="139" column="63" lean-forward="false" selection-start-line="139" selection-start-column="63" selection-end-line="139" selection-end-column="63" />
+            <state relative-caret-position="-936">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -186,13 +186,6 @@
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
       <workItem from="1527927275076" duration="19441000" />
-    </task>
-    <task id="LOCAL-00010" summary="We can use const in all our app">
-      <created>1527921657349</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1527921657350</updated>
     </task>
     <task id="LOCAL-00011" summary="Using arrow functions">
       <created>1527922611186</created>
@@ -530,11 +523,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528029910448</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="We can give a default options array using defaultProps in IndecisionApp class">
+      <created>1528030058906</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1528030058907</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40326000" />
+    <option name="totallyTimeSpent" value="40536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -568,8 +568,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="We should a ternary operator to hide and show details" />
-    <MESSAGE value="Clases es6" />
     <MESSAGE value="finished es6 classes part1" />
     <MESSAGE value="Add a sub class traveller" />
     <MESSAGE value="Creating our first react component" />
@@ -593,7 +591,9 @@
     <MESSAGE value="convert statefull to stateless functional components" />
     <MESSAGE value="Using defaultProp for Header ;=)" />
     <MESSAGE value="We can render conditionally subtitle" />
-    <option name="LAST_COMMIT_MESSAGE" value="We can render conditionally subtitle" />
+    <MESSAGE value="We can give a default options array using defaultProps in IndecisionApp class" />
+    <MESSAGE value="e have an empty options array as defaultProp" />
+    <option name="LAST_COMMIT_MESSAGE" value="e have an empty options array as defaultProp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -869,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="139" column="63" lean-forward="false" selection-start-line="139" selection-start-column="63" selection-end-line="139" selection-end-column="63" />
+        <state relative-caret-position="-936">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

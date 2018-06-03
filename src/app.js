@@ -137,4 +137,4 @@ const Option = (props) => {
     );
 }
 
-ReactDOM.render(<IndecisionApp options={['Barrial', 'San Isidro']}/>, document.getElementById('app'));
+ReactDOM.render(<IndecisionApp/>, document.getElementById('app'));
