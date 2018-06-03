@@ -31,8 +31,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="142" column="19" lean-forward="false" selection-start-line="142" selection-start-column="19" selection-end-line="142" selection-end-column="19" />
+            <state relative-caret-position="240">
+              <caret line="34" column="84" lean-forward="false" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -186,13 +186,6 @@
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
       <workItem from="1527927275076" duration="19441000" />
-    </task>
-    <task id="LOCAL-00017" summary="map is different from forEach because returns a new array with its elements transformed">
-      <created>1527924333063</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1527924333063</updated>
     </task>
     <task id="LOCAL-00018" summary="We can use map to multiply each number">
       <created>1527924587121</created>
@@ -530,11 +523,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528031885820</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="We see the console log which informs us that handleDeleteOption is being fired each time we click on delete each Option">
+      <created>1528033611672</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1528033611672</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43638000" />
+    <option name="totallyTimeSpent" value="44199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -568,7 +568,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Add top level component IndecisionApp and add a Option component nested into Options ;=)" />
     <MESSAGE value="Add title, subtitle andoptions props" />
     <MESSAGE value="We render an Option for each item in options array ;=)" />
     <MESSAGE value="We have attached onCLick to Action, and Options and we have added onSubmit to AddOption form. We have implemented an alert when we submit the form in AddOption." />
@@ -593,7 +592,8 @@
     <MESSAGE value="We can shorten setState with arrow function expressions" />
     <MESSAGE value="We have shorten handleAddOption" />
     <MESSAGE value="Shortening hndleAddOption setState" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shortening hndleAddOption setState" />
+    <MESSAGE value="We see the console log which informs us that handleDeleteOption is being fired each time we click on delete each Option" />
+    <option name="LAST_COMMIT_MESSAGE" value="We see the console log which informs us that handleDeleteOption is being fired each time we click on delete each Option" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -869,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="142" column="19" lean-forward="false" selection-start-line="142" selection-start-column="19" selection-end-line="142" selection-end-column="19" />
+        <state relative-caret-position="240">
+          <caret line="34" column="84" lean-forward="false" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
           <folding />
         </state>
       </provider>
