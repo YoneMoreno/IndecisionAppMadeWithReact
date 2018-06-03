@@ -43,7 +43,11 @@ var IndecisionApp = function (_React$Component) {
     }, {
         key: 'handleAddOption',
         value: function handleAddOption(option) {
-            console.log(option);
+            var _this3 = this;
+
+            this.setState(function (prevState) {
+                return _this3.state.options = prevState.options.concat(option);
+            });
         }
     }, {
         key: 'render',
@@ -165,10 +169,10 @@ var AddOption = function (_React$Component5) {
     function AddOption(props) {
         _classCallCheck(this, AddOption);
 
-        var _this6 = _possibleConstructorReturn(this, (AddOption.__proto__ || Object.getPrototypeOf(AddOption)).call(this, props));
+        var _this7 = _possibleConstructorReturn(this, (AddOption.__proto__ || Object.getPrototypeOf(AddOption)).call(this, props));
 
-        _this6.handleAddOption = _this6.handleAddOption.bind(_this6);
-        return _this6;
+        _this7.handleAddOption = _this7.handleAddOption.bind(_this7);
+        return _this7;
     }
 
     _createClass(AddOption, [{
