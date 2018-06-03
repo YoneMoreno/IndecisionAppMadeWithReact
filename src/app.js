@@ -5,7 +5,7 @@ class IndecisionApp extends React.Component {
         this.handlePick = this.handlePick.bind(this);
         this.handleAddOption = this.handleAddOption.bind(this);
         this.state = {
-            options: ['One', 'Two', 'Thing four']
+            options: []
         };
     }
 
@@ -21,6 +21,12 @@ class IndecisionApp extends React.Component {
     }
 
     handleAddOption(option) {
+
+        if (!option) {
+            return 'Error: the option is empty, please write it';
+        } else if (this.state.options.includes(option)) {
+            return 'Error: the writen option is already saved';
+        }
 
         this.setState((prevState) => {
                 return this.state.options = prevState.options.concat(option)
@@ -89,20 +95,30 @@ class AddOption extends React.Component {
     constructor(props) {
         super(props);
         this.handleAddOption = this.handleAddOption.bind(this);
+        this.state = {
+            error: undefined
+        };
     }
+
 
     handleAddOption(e) {
         e.preventDefault();
         const valueTypedInOptionInput = e.target.elements.option.value.trim();
-        if (valueTypedInOptionInput) {
-            this.props.handleAddOption(valueTypedInOptionInput);
-            e.target.elements.option.value = '';
-        }
+
+
+        const error = this.props.handleAddOption(valueTypedInOptionInput);
+
+        this.setState(() => {
+            return {error: error};
+        });
+
+        e.target.elements.option.value = '';
     }
 
     render() {
         return (
             <div>
+                {this.state.error && <p>{this.state.error}</p>}
                 <form onSubmit={this.handleAddOption}>
                     <input type="text" name="option"/>
                     <button type="submit">Add a new option</button>
