@@ -108,6 +108,7 @@ const Action = (props) => {
 const Options = (props) => {
     return (
         <div>
+            {props.options.length === 0 && <p>Please add some options to get started</p>}
             {
                 props.options.map((option) =>
                     <Option
