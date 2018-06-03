@@ -76,11 +76,17 @@ var IndecisionApp = function (_React$Component) {
     }, {
         key: 'componentDidMount',
         value: function componentDidMount() {
-            var options = JSON.parse(localStorage.getItem('options'));
-            this.setState(function () {
-                return { options: options };
-            });
-            // console.log('fetching data', localStorage.getItem('options'));
+            try {
+                var options = JSON.parse(localStorage.getItem('options'));
+                if (options) {
+                    this.setState(function () {
+                        return { options: options };
+                    });
+                    // console.log('fetching data', localStorage.getItem('options'));
+                }
+            } catch (e) {
+                //If JSON is invalid we put the default options: []
+            }
         }
     }, {
         key: 'render',

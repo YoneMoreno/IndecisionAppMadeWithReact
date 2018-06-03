@@ -45,9 +45,16 @@ class IndecisionApp extends React.Component {
     }
 
     componentDidMount() {
-        const options = JSON.parse(localStorage.getItem('options'));
-        this.setState(() => ({options}));
-        // console.log('fetching data', localStorage.getItem('options'));
+        try {
+            const options = JSON.parse(localStorage.getItem('options'));
+            if (options) {
+                this.setState(() => ({options}));
+                // console.log('fetching data', localStorage.getItem('options'));
+            }
+        } catch (e) {
+            //If JSON is invalid we put the default options: []
+        }
+
     }
 
 

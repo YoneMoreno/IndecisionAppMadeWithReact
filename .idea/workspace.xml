@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c41c42e0-b5d7-4533-9a3a-6ce074a7c520" name="Default" comment="We can delete each option ;=) ;=)">
+    <list default="true" id="c41c42e0-b5d7-4533-9a3a-6ce074a7c520" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/app.js" afterPath="$PROJECT_DIR$/public/scripts/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.js" afterPath="$PROJECT_DIR$/src/app.js" />
@@ -31,8 +31,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="216">
+              <caret line="46" column="25" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -186,13 +186,6 @@
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
       <workItem from="1527927275076" duration="19441000" />
-    </task>
-    <task id="LOCAL-00019" summary="We need to use className as a JSX attribute because class is a js keyword">
-      <created>1527925336181</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1527925336181</updated>
     </task>
     <task id="LOCAL-00020" summary="onClick lets us specify a function to be executed when we press a button">
       <created>1527925628021</created>
@@ -530,11 +523,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528034169074</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="We can persist using localStorage and lifeCycle methods componentDidMount and componentDidUpdate ;=) our options array !">
+      <created>1528036439878</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1528036439879</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45730000" />
+    <option name="totallyTimeSpent" value="46286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -568,8 +568,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="We render an Option for each item in options array ;=)" />
-    <MESSAGE value="We have attached onCLick to Action, and Options and we have added onSubmit to AddOption form. We have implemented an alert when we submit the form in AddOption." />
     <MESSAGE value="bind function is useful to pass in the context  when we are calling methods from events" />
     <MESSAGE value="It is better to include the bind function into the Component constructor" />
     <MESSAGE value="Added methods to process each button's events and also added a binding" />
@@ -593,7 +591,9 @@
     <MESSAGE value="Shortening hndleAddOption setState" />
     <MESSAGE value="We see the console log which informs us that handleDeleteOption is being fired each time we click on delete each Option" />
     <MESSAGE value="We can delete each option ;=) ;=)" />
-    <option name="LAST_COMMIT_MESSAGE" value="We can delete each option ;=) ;=)" />
+    <MESSAGE value="We can persist using localStorage and lifeCycle methods componentDidMount and componentDidUpdate ;=) our options array !" />
+    <MESSAGE value="We check if value given is null when we parse it as JSON. Also we treat the case where the JSON is invali with try/catch" />
+    <option name="LAST_COMMIT_MESSAGE" value="We check if value given is null when we parse it as JSON. Also we treat the case where the JSON is invali with try/catch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -869,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="216">
+          <caret line="46" column="25" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
           <folding />
         </state>
       </provider>
