@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c41c42e0-b5d7-4533-9a3a-6ce074a7c520" name="Default" comment="">
+    <list default="true" id="c41c42e0-b5d7-4533-9a3a-6ce074a7c520" name="Default" comment="We can delete each option ;=) ;=)">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/app.js" afterPath="$PROJECT_DIR$/public/scripts/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.js" afterPath="$PROJECT_DIR$/src/app.js" />
@@ -31,8 +31,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="34" column="84" lean-forward="false" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
+            <state relative-caret-position="368">
+              <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -186,13 +186,6 @@
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
       <workItem from="1527927275076" duration="19441000" />
-    </task>
-    <task id="LOCAL-00018" summary="We can use map to multiply each number">
-      <created>1527924587121</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1527924587121</updated>
     </task>
     <task id="LOCAL-00019" summary="We need to use className as a JSX attribute because class is a js keyword">
       <created>1527925336181</created>
@@ -530,11 +523,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528033611672</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="We can delete each option ;=) ;=)">
+      <created>1528034169074</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1528034169074</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44199000" />
+    <option name="totallyTimeSpent" value="45730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -568,7 +568,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Add title, subtitle andoptions props" />
     <MESSAGE value="We render an Option for each item in options array ;=)" />
     <MESSAGE value="We have attached onCLick to Action, and Options and we have added onSubmit to AddOption form. We have implemented an alert when we submit the form in AddOption." />
     <MESSAGE value="bind function is useful to pass in the context  when we are calling methods from events" />
@@ -593,7 +592,8 @@
     <MESSAGE value="We have shorten handleAddOption" />
     <MESSAGE value="Shortening hndleAddOption setState" />
     <MESSAGE value="We see the console log which informs us that handleDeleteOption is being fired each time we click on delete each Option" />
-    <option name="LAST_COMMIT_MESSAGE" value="We see the console log which informs us that handleDeleteOption is being fired each time we click on delete each Option" />
+    <MESSAGE value="We can delete each option ;=) ;=)" />
+    <option name="LAST_COMMIT_MESSAGE" value="We can delete each option ;=) ;=)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -869,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="34" column="84" lean-forward="false" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
+        <state relative-caret-position="368">
+          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding />
         </state>
       </provider>

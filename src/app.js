@@ -36,6 +36,20 @@ class IndecisionApp extends React.Component {
         }));
     }
 
+    componentDidUpdate(prevProps, prevState) {
+        if (prevState.options.length !== this.state.options.length) {
+            const json = JSON.stringify(this.state.options);
+            localStorage.setItem('options', json);
+            // console.log('saving data', this.state.options);
+        }
+    }
+
+    componentDidMount() {
+        const options = JSON.parse(localStorage.getItem('options'));
+        this.setState(() => ({options}));
+        // console.log('fetching data', localStorage.getItem('options'));
+    }
+
 
     render() {
         const subtitle = 'Put your life into the hands of a computer!!';

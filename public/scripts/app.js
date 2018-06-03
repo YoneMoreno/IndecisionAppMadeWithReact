@@ -65,6 +65,24 @@ var IndecisionApp = function (_React$Component) {
             });
         }
     }, {
+        key: 'componentDidUpdate',
+        value: function componentDidUpdate(prevProps, prevState) {
+            if (prevState.options.length !== this.state.options.length) {
+                var json = JSON.stringify(this.state.options);
+                localStorage.setItem('options', json);
+                // console.log('saving data', this.state.options);
+            }
+        }
+    }, {
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            var options = JSON.parse(localStorage.getItem('options'));
+            this.setState(function () {
+                return { options: options };
+            });
+            // console.log('fetching data', localStorage.getItem('options'));
+        }
+    }, {
         key: 'render',
         value: function render() {
             var subtitle = 'Put your life into the hands of a computer!!';
