@@ -104,9 +104,7 @@ class AddOption extends React.Component {
 
         const error = this.props.handleAddOption(valueTypedInOptionInput);
 
-        this.setState(() => {
-            return {error: error};
-        });
+        this.setState(() => ({error}));
 
         e.target.elements.option.value = '';
     }
