@@ -53,7 +53,7 @@ class IndecisionApp extends React.Component {
     }
 }
 
-IndecisionApp.defaultPrps = {
+IndecisionApp.defaultProps = {
     options: []
 };
 
