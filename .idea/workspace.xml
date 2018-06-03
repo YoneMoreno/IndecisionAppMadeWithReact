@@ -31,8 +31,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
-              <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+            <state relative-caret-position="264">
+              <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -186,13 +186,6 @@
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
       <workItem from="1527927275076" duration="19441000" />
-    </task>
-    <task id="LOCAL-00008" summary="Var variables are function scope, and const and let are both function and block scope">
-      <created>1527921201754</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1527921201754</updated>
     </task>
     <task id="LOCAL-00009" summary="We prefer to use const and let">
       <created>1527921371245</created>
@@ -530,11 +523,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528028231255</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Using defaultProp for Header ;=)">
+      <created>1528029774872</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1528029774872</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40041000" />
+    <option name="totallyTimeSpent" value="40198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -568,8 +568,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="We add a button to alert a random list item. The point is to show that we can do more than conditional rendering, we can do conditional disabling." />
-    <MESSAGE value="We have done the visibility toggle challenge" />
     <MESSAGE value="We should a ternary operator to hide and show details" />
     <MESSAGE value="Clases es6" />
     <MESSAGE value="finished es6 classes part1" />
@@ -593,7 +591,9 @@
     <MESSAGE value="We need to use setState as a function which returns the state modified" />
     <MESSAGE value="It is interesting if we write console.log into setState it is undefined even if we have checked before the setState that the error is well put into the state." />
     <MESSAGE value="convert statefull to stateless functional components" />
-    <option name="LAST_COMMIT_MESSAGE" value="convert statefull to stateless functional components" />
+    <MESSAGE value="Using defaultProp for Header ;=)" />
+    <MESSAGE value="We can render conditionally subtitle" />
+    <option name="LAST_COMMIT_MESSAGE" value="We can render conditionally subtitle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -869,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        <state relative-caret-position="264">
+          <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="43" />
           <folding />
         </state>
       </provider>
