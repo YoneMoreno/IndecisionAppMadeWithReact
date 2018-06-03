@@ -21,7 +21,7 @@ class IndecisionApp extends React.Component {
     }
 
     handleAddOption(option) {
-        console.log('handleAddOption');
+        console.log(option);
     }
 
 
