@@ -26,10 +26,7 @@ class IndecisionApp extends React.Component {
             return 'Error: the writen option is already saved';
         }
 
-        this.setState((prevState) => {
-                return this.state.options = prevState.options.concat(option)
-            }
-        );
+        this.setState((prevState) => ({options: prevState.options.concat(option)}));
     }
 
 
