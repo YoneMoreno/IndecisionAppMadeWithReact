@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c41c42e0-b5d7-4533-9a3a-6ce074a7c520" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/app.js" afterPath="$PROJECT_DIR$/public/scripts/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.js" afterPath="$PROJECT_DIR$/src/app.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,8 +31,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="104" column="74" lean-forward="false" selection-start-line="104" selection-start-column="74" selection-end-line="104" selection-end-column="74" />
+            <state relative-caret-position="368">
+              <caret line="142" column="19" lean-forward="false" selection-start-line="142" selection-start-column="19" selection-end-line="142" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -185,13 +186,6 @@
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
       <workItem from="1527927275076" duration="19441000" />
-    </task>
-    <task id="LOCAL-00016" summary="We can define a function as an object method">
-      <created>1527923966469</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1527923966469</updated>
     </task>
     <task id="LOCAL-00017" summary="map is different from forEach because returns a new array with its elements transformed">
       <created>1527924333063</created>
@@ -529,11 +523,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528031822920</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Shortening hndleAddOption setState">
+      <created>1528031885819</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1528031885820</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42074000" />
+    <option name="totallyTimeSpent" value="43638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -567,7 +568,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Add two new cclasses" />
     <MESSAGE value="Add top level component IndecisionApp and add a Option component nested into Options ;=)" />
     <MESSAGE value="Add title, subtitle andoptions props" />
     <MESSAGE value="We render an Option for each item in options array ;=)" />
@@ -592,7 +592,8 @@
     <MESSAGE value="We have seen that a bug was telling us that IndecisionApp.state.options was undefined and it was due to that we where taking in the state:&#10;&#10;this.state = {&#10;    state: props.state&#10;};&#10;&#10;Where:&#10;&#10;IndecisionApp.defaultPrps = {&#10;    options: []&#10;}&#10;&#10;Which obviously was bad written because of it is spelled defaultProps" />
     <MESSAGE value="We can shorten setState with arrow function expressions" />
     <MESSAGE value="We have shorten handleAddOption" />
-    <option name="LAST_COMMIT_MESSAGE" value="We have shorten handleAddOption" />
+    <MESSAGE value="Shortening hndleAddOption setState" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shortening hndleAddOption setState" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -868,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="104" column="74" lean-forward="false" selection-start-line="104" selection-start-column="74" selection-end-line="104" selection-end-column="74" />
+        <state relative-caret-position="368">
+          <caret line="142" column="19" lean-forward="false" selection-start-line="142" selection-start-column="19" selection-end-line="142" selection-end-column="19" />
           <folding />
         </state>
       </provider>

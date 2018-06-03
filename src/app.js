@@ -4,6 +4,7 @@ class IndecisionApp extends React.Component {
         this.handleDeleteOptions = this.handleDeleteOptions.bind(this);
         this.handlePick = this.handlePick.bind(this);
         this.handleAddOption = this.handleAddOption.bind(this);
+        this.handleDeleteOption = this.handleDeleteOption.bind(this);
         this.state = {
             options: props.options
         };
@@ -29,6 +30,10 @@ class IndecisionApp extends React.Component {
         this.setState((prevState) => ({options: prevState.options.concat(option)}));
     }
 
+    handleDeleteOption(option) {
+        console.log('hdo', option);
+    }
+
 
     render() {
         const subtitle = 'Put your life into the hands of a computer!!';
@@ -40,7 +45,8 @@ class IndecisionApp extends React.Component {
                     hasOptions={this.state.options.length > 0}/>
                 <Options
                     options={this.state.options}
-                    handleDeleteOptions={this.handleDeleteOptions}/>
+                    handleDeleteOptions={this.handleDeleteOptions}
+                    handleDeleteOption={this.handleDeleteOption}/>
                 <AddOption
                     handleAddOption={this.handleAddOption}/>
             </div>
@@ -80,7 +86,12 @@ const Options = (props) => {
     return (
         <div>
             {
-                props.options.map((option) => <Option option={option} key={option}/>)
+                props.options.map((option) =>
+                    <Option
+                        optionText={option}
+                        key={option}
+                        handleDeleteOption={props.handleDeleteOption}
+                    />)
             }
             <button onClick={props.handleDeleteOptions}>Remove all options</button>
         </div>
@@ -125,7 +136,13 @@ class AddOption extends React.Component {
 const Option = (props) => {
     return (
         <div>
-            <p>{props.option}</p>
+            <p>{props.optionText}
+                <button onClick={(e) => {
+                    props.handleDeleteOption(props.optionText)
+                }}>Delete
+                </button>
+            </p>
+
         </div>
     );
 }
