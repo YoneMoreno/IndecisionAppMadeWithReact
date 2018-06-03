@@ -28,10 +28,8 @@ var IndecisionApp = function (_React$Component) {
     _createClass(IndecisionApp, [{
         key: 'handleDeleteOptions',
         value: function handleDeleteOptions() {
-            var _this2 = this;
-
             this.setState(function () {
-                return _this2.state.options = [];
+                return { options: [] };
             });
         }
     }, {
@@ -43,7 +41,7 @@ var IndecisionApp = function (_React$Component) {
     }, {
         key: 'handleAddOption',
         value: function handleAddOption(option) {
-            var _this3 = this;
+            var _this2 = this;
 
             if (!option) {
                 return 'Error: the option is empty, please write it';
@@ -52,7 +50,7 @@ var IndecisionApp = function (_React$Component) {
             }
 
             this.setState(function (prevState) {
-                return _this3.state.options = prevState.options.concat(option);
+                return _this2.state.options = prevState.options.concat(option);
             });
         }
     }, {
@@ -137,13 +135,13 @@ var AddOption = function (_React$Component2) {
     function AddOption(props) {
         _classCallCheck(this, AddOption);
 
-        var _this4 = _possibleConstructorReturn(this, (AddOption.__proto__ || Object.getPrototypeOf(AddOption)).call(this, props));
+        var _this3 = _possibleConstructorReturn(this, (AddOption.__proto__ || Object.getPrototypeOf(AddOption)).call(this, props));
 
-        _this4.handleAddOption = _this4.handleAddOption.bind(_this4);
-        _this4.state = {
+        _this3.handleAddOption = _this3.handleAddOption.bind(_this3);
+        _this3.state = {
             error: undefined
         };
-        return _this4;
+        return _this3;
     }
 
     _createClass(AddOption, [{
