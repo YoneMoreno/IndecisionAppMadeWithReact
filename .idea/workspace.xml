@@ -31,8 +31,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="60" column="17" lean-forward="false" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -186,13 +186,6 @@
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
       <workItem from="1527927275076" duration="19441000" />
-    </task>
-    <task id="LOCAL-00006" summary="With let you can not redefine a variable, it says it is a duplicate declaration!">
-      <created>1527920261867</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1527920261867</updated>
     </task>
     <task id="LOCAL-00007" summary="We can not reassign nor redefine consts">
       <created>1527920472321</created>
@@ -530,11 +523,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528025437520</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="It is interesting if we write console.log into setState it is undefined even if we have checked before the setState that the error is well put into the state.">
+      <created>1528026938459</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1528026938459</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38613000" />
+    <option name="totallyTimeSpent" value="39632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -568,8 +568,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="We can show each number being a paragraph" />
-    <MESSAGE value="We can output each option as list item generating jsx from each array element" />
     <MESSAGE value="We add a button to alert a random list item. The point is to show that we can do more than conditional rendering, we can do conditional disabling." />
     <MESSAGE value="We have done the visibility toggle challenge" />
     <MESSAGE value="We should a ternary operator to hide and show details" />
@@ -593,7 +591,9 @@
     <MESSAGE value="We need to bind the function in the constructor of IndecisionApp to be able to call it from its child AddOptions" />
     <MESSAGE value="We get the option written in the input wwith name option up to IndecisionApp and handleAddOption logs it to the console. Objective: learn how to pass data from a child to a parent." />
     <MESSAGE value="We need to use setState as a function which returns the state modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="We need to use setState as a function which returns the state modified" />
+    <MESSAGE value="It is interesting if we write console.log into setState it is undefined even if we have checked before the setState that the error is well put into the state." />
+    <MESSAGE value="convert statefull to stateless functional components" />
+    <option name="LAST_COMMIT_MESSAGE" value="convert statefull to stateless functional components" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -869,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="60" column="17" lean-forward="false" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
           <folding />
         </state>
       </provider>
