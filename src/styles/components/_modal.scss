@@ -3,6 +3,9 @@
 }
 
 .ReactModalPortal > .ReactModal__Overlay {
+  align-items: center;
+  justify-content: center;
+  display: flex;
   transition: opacity 200ms ease-in-out;
 }
 
@@ -12,4 +15,13 @@
 
 .ReactModalPortal > .ReactModal__Overlay--before-close {
   opacity: 0;
+}
+
+.modal {
+  background: $light-blue;
+  color: white;
+  max-width: 30rem;
+  outline: none;
+  padding: $l-size;
+  tet-align: center;
 }
