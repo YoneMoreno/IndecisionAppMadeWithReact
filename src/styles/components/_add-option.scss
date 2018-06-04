@@ -7,8 +7,15 @@
 
 .add-option {
   display: flex;
+  padding: $m-size;
 }
 
 .add-option__input {
+  background: $darkBlue-background;
+  color: white;
+  border: none;
+  border-bottom: .3rem solid darken($darkBlue-background, 25%);
   flex-grow: 1;
+  margin-right: $s-size;
+  padding: $s-size;
 }
