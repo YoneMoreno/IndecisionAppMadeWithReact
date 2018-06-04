@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import AddOption from "./components/AddOption";
-import Option from "./components/Option";
+import Options from "./components/Options";
 
 class IndecisionApp extends React.Component {
     constructor(props) {
@@ -110,22 +110,7 @@ const Action = (props) => {
     );
 }
 
-const Options = (props) => {
-    return (
-        <div>
-            {props.options.length === 0 && <p>Please add some options to get started</p>}
-            {
-                props.options.map((option) =>
-                    <Option
-                        optionText={option}
-                        key={option}
-                        handleDeleteOption={props.handleDeleteOption}
-                    />)
-            }
-            <button onClick={props.handleDeleteOptions}>Remove all options</button>
-        </div>
-    );
-}
+
 
 
 
