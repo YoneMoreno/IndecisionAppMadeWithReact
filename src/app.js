@@ -1,7 +1,5 @@
-// import substract, {add, square} from './utils';
-//
-// console.log(add(10, 100), square(5), substract(1000, 55));
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import isSenior, {canDrink, isAdult} from './person';
-
-console.log(canDrink(55), isAdult(1), isSenior(59));
+const template = React.createElement('h1', null, 'title');
+ReactDOM.render(template, document.getElementById('app'));
