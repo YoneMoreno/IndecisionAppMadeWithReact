@@ -4,4 +4,6 @@ const square = (x) => x * x;
 
 const add = (x, y) => x + y;
 
-export {square, add};
+const substract = (a, b) => a - b;
+
+export {square, add, substract as default};
