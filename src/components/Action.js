@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default (props) => {
+const Action = (props) => {
     return (
         <div>
             <button disabled={!props.hasOptions}
@@ -10,3 +10,5 @@ export default (props) => {
         </div>
     );
 };
+
+export default Action;
