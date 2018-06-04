@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c41c42e0-b5d7-4533-9a3a-6ce074a7c520" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/base/_base.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/styles.scss" afterPath="$PROJECT_DIR$/src/styles/styles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/base/_base.scss" afterPath="$PROJECT_DIR$/src/styles/base/_base.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -28,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_base.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/base/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+            <state relative-caret-position="216">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -122,8 +121,8 @@
         <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/styles/base/_base.js" />
-        <option value="$PROJECT_DIR$/src/styles/base/_base.scss" />
         <option value="$PROJECT_DIR$/src/styles/styles.scss" />
+        <option value="$PROJECT_DIR$/src/styles/base/_base.scss" />
       </list>
     </option>
   </component>
@@ -253,13 +252,6 @@
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
       <workItem from="1527927275076" duration="19441000" />
-    </task>
-    <task id="LOCAL-00072" summary="We persist the count in localStorage">
-      <created>1528038035941</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1528038035942</updated>
     </task>
     <task id="LOCAL-00073" summary="UninstaLLING BABEL-CLI and live-server as global dependencies. We install them as local dependencies ;=) ;=) The reason is that we want to show them on package.json to be able to run this app when we download it from git.">
       <created>1528039979774</created>
@@ -597,11 +589,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528107852259</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="We have decided to have an starting point for our styles called styles.css where we import all the other partials styles. For example we use _base.scss to declare our font family.">
+      <created>1528108344325</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1528108344325</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67898000" />
+    <option name="totallyTimeSpent" value="68229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -635,7 +634,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="We can replace constructor properties with inline ones" />
     <MESSAGE value="If we had to store the function using the old syntax and then execute it it would fail because of this binding has been broken" />
     <MESSAGE value="Fix" />
     <MESSAGE value="To fix the issue with the new syntax we need to create an arrow function" />
@@ -660,7 +658,8 @@
     <MESSAGE value="We have downloaded a css-loader to grab the local css files and mix them with the rest of the code. Plus we have added style-loader which creates a &lt;script&gt; tag for each css file loaded and adds it to the web. In addition we have added a rule to use both loaders when webpack finds .css files. As a last step we have done an import to get the css, and now we have all the app's text red." />
     <MESSAGE value="We have installed a sass loader to grab the extended scss code. Also we have installed node sass to convert it into playin understandable by the browser css code. TODO: Configure webpack to use them both" />
     <MESSAGE value="We are currently using the sass loader via webpack! ;=)" />
-    <option name="LAST_COMMIT_MESSAGE" value="We are currently using the sass loader via webpack! ;=)" />
+    <MESSAGE value="We have decided to have an starting point for our styles called styles.css where we import all the other partials styles. For example we use _base.scss to declare our font family." />
+    <option name="LAST_COMMIT_MESSAGE" value="We have decided to have an starting point for our styles called styles.css where we import all the other partials styles. For example we use _base.scss to declare our font family." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1069,18 +1068,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/base/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/base/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
