@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c41c42e0-b5d7-4533-9a3a-6ce074a7c520" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/indecisionApp.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.js" afterPath="$PROJECT_DIR$/src/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header.js" afterPath="$PROJECT_DIR$/src/components/Header.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +20,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="48">
+              <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -267,13 +265,6 @@
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
       <workItem from="1527927275076" duration="19441000" />
-    </task>
-    <task id="LOCAL-00041" summary="Add top level component IndecisionApp and add a Option component nested into Options ;=)">
-      <created>1527950174531</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1527950174531</updated>
     </task>
     <task id="LOCAL-00042" summary="Add title, subtitle andoptions props">
       <created>1527950809108</created>
@@ -611,11 +602,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528097641740</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="We have extracted out all components and we show them using App">
+      <created>1528098165079</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1528098165079</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57768000" />
+    <option name="totallyTimeSpent" value="57975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -649,7 +647,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="We can shorten setState with arrow function expressions" />
     <MESSAGE value="We have shorten handleAddOption" />
     <MESSAGE value="Shortening hndleAddOption setState" />
     <MESSAGE value="We see the console log which informs us that handleDeleteOption is being fired each time we click on delete each Option" />
@@ -674,7 +671,8 @@
     <MESSAGE value="refactor extract" />
     <MESSAGE value="It is strange how webpack does not find the Header file if we include:&#10;&#10;Header.defaultProps = {&#10;    title: 'Indecision'&#10;};" />
     <MESSAGE value="We need to export as default each componnent preserving its const Name = function. The Name is mandatory because of React dev tools take the Component's name from the const declared ;=)" />
-    <option name="LAST_COMMIT_MESSAGE" value="We need to export as default each componnent preserving its const Name = function. The Name is mandatory because of React dev tools take the Component's name from the const declared ;=)" />
+    <MESSAGE value="We have extracted out all components and we show them using App" />
+    <option name="LAST_COMMIT_MESSAGE" value="We have extracted out all components and we show them using App" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -945,8 +943,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
-            <marker date="1528098148208" expanded="true" signature="2450:2459" ph="{...}" />
-            <marker date="1528098148208" expanded="true" signature="2450:2457" ph="/*...*/" />
+            <marker date="1528098355065" expanded="true" signature="2450:2459" ph="{...}" />
+            <marker date="1528098355065" expanded="true" signature="2450:2457" ph="/*...*/" />
           </folding>
         </state>
       </provider>
@@ -1093,8 +1091,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="48">
+          <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
