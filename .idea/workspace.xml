@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c41c42e0-b5d7-4533-9a3a-6ce074a7c520" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/indecisionApp.js" afterPath="$PROJECT_DIR$/src/components/indecisionApp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/_container.scss" afterPath="$PROJECT_DIR$/src/styles/components/_container.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/base/_base.scss" afterPath="$PROJECT_DIR$/src/styles/base/_base.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/base/_settings.scss" afterPath="$PROJECT_DIR$/src/styles/base/_settings.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_base.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/base/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="168">
+              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -41,8 +41,8 @@
       <file leaf-file-name="_settings.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/base/_settings.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="96">
+              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -62,13 +62,13 @@
         <entry file="file://$PROJECT_DIR$/src/styles/components/_container.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indecisionApp.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="indecisionApp.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/indecisionApp.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
@@ -149,14 +149,14 @@
         <option value="$PROJECT_DIR$/src/styles/styles.css" />
         <option value="$PROJECT_DIR$/src/styles/base/_base.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/src/styles/base/_base.scss" />
-        <option value="$PROJECT_DIR$/src/styles/base/_settings.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/_header.scss" />
         <option value="$PROJECT_DIR$/src/styles/styles.scss" />
         <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/components/Header.js" />
-        <option value="$PROJECT_DIR$/src/styles/components/_container.scss" />
         <option value="$PROJECT_DIR$/src/components/indecisionApp.js" />
+        <option value="$PROJECT_DIR$/src/styles/base/_settings.scss" />
+        <option value="$PROJECT_DIR$/src/styles/components/_container.scss" />
+        <option value="$PROJECT_DIR$/src/styles/base/_base.scss" />
       </list>
     </option>
   </component>
@@ -304,13 +304,6 @@
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
       <workItem from="1527927275076" duration="19441000" />
-    </task>
-    <task id="LOCAL-00080" summary="We can export both inline with export default = function, and in a separated line with name as default inside {}">
-      <created>1528093790863</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1528093790863</updated>
     </task>
     <task id="LOCAL-00081" summary="We can import using webpack modules from third-party libraries">
       <created>1528094974807</created>
@@ -648,11 +641,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528112028914</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="We align to the center all UI components: Action, Options, Option and AddOption">
+      <created>1528112249403</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1528112249403</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71815000" />
+    <option name="totallyTimeSpent" value="72134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -686,7 +686,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Our first step to know how to ps in dinamicaally elements to our react pages" />
     <MESSAGE value="We can inject dinamically content to the layour of our react age" />
     <MESSAGE value="We can inject the Layout content dinamically and access it using props.children ;=)" />
     <MESSAGE value="We need to know this technique of passing in JSX as children prop to be able to use third party components" />
@@ -711,7 +710,8 @@
     <MESSAGE value="Fix we were using em instead of rem, The second one is absolute it means if you put 1.6rem the font size will be 16px" />
     <MESSAGE value="We extract the other two spacings to _settings.scss" />
     <MESSAGE value="We center the heading text" />
-    <option name="LAST_COMMIT_MESSAGE" value="We center the heading text" />
+    <MESSAGE value="We align to the center all UI components: Action, Options, Option and AddOption" />
+    <option name="LAST_COMMIT_MESSAGE" value="We align to the center all UI components: Action, Options, Option and AddOption" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1069,14 +1069,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/base/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/components/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -1111,10 +1103,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/indecisionApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="83" column="16" lean-forward="false" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/base/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="96">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1122,15 +1122,15 @@
     <entry file="file://$PROJECT_DIR$/src/styles/components/_container.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/indecisionApp.js">
+    <entry file="file://$PROJECT_DIR$/src/styles/base/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="83" column="16" lean-forward="false" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+        <state relative-caret-position="168">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding />
         </state>
       </provider>
