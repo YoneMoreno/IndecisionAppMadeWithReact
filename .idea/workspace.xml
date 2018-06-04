@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OptionModal.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OptionModal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/OptionModal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="288">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -30,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indecisionApp.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="indecisionApp.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/indecisionApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="77" column="61" lean-forward="false" selection-start-line="77" selection-start-column="61" selection-end-line="77" selection-end-column="61" />
+            <state relative-caret-position="240">
+              <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -88,8 +88,8 @@
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/src/components/AddOption.js" />
         <option value="$PROJECT_DIR$/src/app.js" />
-        <option value="$PROJECT_DIR$/src/components/indecisionApp.js" />
         <option value="$PROJECT_DIR$/src/components/OptionModal.js" />
+        <option value="$PROJECT_DIR$/src/components/indecisionApp.js" />
       </list>
     </option>
   </component>
@@ -205,13 +205,6 @@
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
       <workItem from="1527927275076" duration="19441000" />
-    </task>
-    <task id="LOCAL-00062" summary="We have seen that a bug was telling us that IndecisionApp.state.options was undefined and it was due to that we where taking in the state:&#10;&#10;this.state = {&#10;    state: props.state&#10;};&#10;&#10;Where:&#10;&#10;IndecisionApp.defaultPrps = {&#10;    options: []&#10;}&#10;&#10;Which obviously was bad written because of it is spelled defaultProps">
-      <created>1528030970217</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1528030970217</updated>
     </task>
     <task id="LOCAL-00063" summary="We can shorten setState with arrow function expressions">
       <created>1528031718760</created>
@@ -549,11 +542,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528103899769</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="We add the selectedOption boolean to the InddeccisionApp state because we can show and hide the modal dinamically depending on if the Action button has been pressed">
+      <created>1528104186624</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1528104186624</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63749000" />
+    <option name="totallyTimeSpent" value="64175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -587,7 +587,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="It is better to use a default export when we have only a class" />
     <MESSAGE value="refactor extract" />
     <MESSAGE value="It is strange how webpack does not find the Header file if we include:&#10;&#10;Header.defaultProps = {&#10;    title: 'Indecision'&#10;};" />
     <MESSAGE value="We need to export as default each componnent preserving its const Name = function. The Name is mandatory because of React dev tools take the Component's name from the const declared ;=)" />
@@ -612,7 +611,8 @@
     <MESSAGE value="return back to IndecisionApp" />
     <MESSAGE value="We have linked the OptionModal component to the IndecisionApp. Also we have learnt that we can use the sorter arrow function syntax to create a stateless component" />
     <MESSAGE value="We can see the modal opened" />
-    <option name="LAST_COMMIT_MESSAGE" value="We can see the modal opened" />
+    <MESSAGE value="We add the selectedOption boolean to the InddeccisionApp state because we can show and hide the modal dinamically depending on if the Action button has been pressed" />
+    <option name="LAST_COMMIT_MESSAGE" value="We add the selectedOption boolean to the InddeccisionApp state because we can show and hide the modal dinamically depending on if the Action button has been pressed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1017,20 +1017,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/indecisionApp.js">
+    <entry file="file://$PROJECT_DIR$/src/components/OptionModal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="77" column="61" lean-forward="false" selection-start-line="77" selection-start-column="61" selection-end-line="77" selection-end-column="61" />
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/OptionModal.js">
+    <entry file="file://$PROJECT_DIR$/src/components/indecisionApp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="240">
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
