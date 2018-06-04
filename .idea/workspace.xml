@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c41c42e0-b5d7-4533-9a3a-6ce074a7c520" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
               <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -52,7 +63,6 @@
         <option value="$PROJECT_DIR$/src/playground/es6-let-const.js" />
         <option value="$PROJECT_DIR$/src/playground/es6-arrow-function.js" />
         <option value="$PROJECT_DIR$/src/playground/es6-arrow-function2.js" />
-        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/src/playground/es6-classes1.js" />
         <option value="$PROJECT_DIR$/src/playground/jsx-indecision.js" />
         <option value="$PROJECT_DIR$/src/playground/build-it-visible.js" />
@@ -88,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/styles/components/_header.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/_button" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -233,14 +244,7 @@
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
       <workItem from="1527927275076" duration="19441000" />
-      <workItem from="1528125026342" duration="50000" />
-    </task>
-    <task id="LOCAL-00101" summary="We can simplify the addOption component if we delete the constructor and write the method handleAddOption as an arrow function">
-      <created>1528101627016</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1528101627016</updated>
+      <workItem from="1528125026342" duration="149000" />
     </task>
     <task id="LOCAL-00102" summary="extract state from IndecisionApp">
       <created>1528101806874</created>
@@ -578,11 +582,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528123356436</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="Push to git">
+      <created>1528125093068</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1528125093068</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82572000" />
+    <option name="totallyTimeSpent" value="82671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -616,7 +627,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="We confine all our colors and spacing values into a _settings.scss file to only change them in a place just one ;=)" />
     <MESSAGE value="Fix we were using em instead of rem, The second one is absolute it means if you put 1.6rem the font size will be 16px" />
     <MESSAGE value="We extract the other two spacings to _settings.scss" />
     <MESSAGE value="We center the heading text" />
@@ -641,7 +651,8 @@
     <MESSAGE value="We need to configure the meta tag to fit the view to a mobile" />
     <MESSAGE value="Using media queries to adjust margins" />
     <MESSAGE value="Add favicon ;=)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add favicon ;=)" />
+    <MESSAGE value="Push to git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Push to git" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -674,6 +685,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -732,13 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -962,6 +967,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding />
         </state>
       </provider>

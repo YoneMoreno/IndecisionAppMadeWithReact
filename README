@@ -1,7 +1,9 @@
-Iniciar servidor:
+Execute the app in a local server:
 
-live-server public
+npm run dev-server
 
-Iniciar babel para convertir react a navegador:
+Build the app in a local file:
 
-babel src/app.js --out-file public/scripts/app.js --presets=env,react  --watch
+npm run build
+
+
