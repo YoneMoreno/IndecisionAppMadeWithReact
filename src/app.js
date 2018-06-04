@@ -12,11 +12,10 @@ const Layout = (props) => {
     );
 };
 
-const template =
-    <div>
+
+ReactDOM.render(
+    (<Layout>
         <h1>Title</h1>
         <p>Page content!!</p>
-    </div>;
-
-
-ReactDOM.render(<Layout><p>This is inline and is the child</p></Layout>, document.getElementById('app'));
+    </Layout>),
+    document.getElementById('app'));
