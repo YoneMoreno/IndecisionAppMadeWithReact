@@ -11,6 +11,10 @@ export default class IndecisionApp extends React.Component {
         selectedOption: undefined
     };
 
+    handleDeleteSelectedOption = () => {
+        this.setState(() => ({selectedOption: undefined}));
+    };
+
     handleDeleteOptions = () => {
         this.setState(() => ({options: []}));
     };
@@ -77,6 +81,7 @@ export default class IndecisionApp extends React.Component {
                 <AddOption
                     handleAddOption={this.handleAddOption}/>
                 <OptionModal
+                    handleDeleteSelectedOption={this.handleDeleteSelectedOption}
                     selectedOption={this.state.selectedOption}
                 />
             </div>
