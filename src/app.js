@@ -7,6 +7,7 @@ ReactDOM.render(<IndecisionApp/>, document.getElementById('app'));
 class OldSyntax {
     constructor() {
         this.name = 'Rufo';
+        this.getGreeting = this.getGreeting.bind(this);
     }
 
     getGreeting() {

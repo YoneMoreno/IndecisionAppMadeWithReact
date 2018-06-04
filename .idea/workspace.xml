@@ -21,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -199,13 +199,6 @@
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
       <workItem from="1527927275076" duration="19441000" />
-    </task>
-    <task id="LOCAL-00048" summary="handle add, minus and reset with state">
-      <created>1527955644658</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1527955644658</updated>
     </task>
     <task id="LOCAL-00049" summary="visibilityToggle rebuilt with React Component">
       <created>1527957515396</created>
@@ -543,11 +536,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528101005730</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="If we had to store the function using the old syntax and then execute it it would fail because of this binding has been broken">
+      <created>1528101274014</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1528101274014</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60860000" />
+    <option name="totallyTimeSpent" value="60907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -581,7 +581,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="We only clear th input field if there was no error" />
     <MESSAGE value="We give a message when there are no more options left" />
     <MESSAGE value="We persist the count in localStorage" />
     <MESSAGE value="UninstaLLING BABEL-CLI and live-server as global dependencies. We install them as local dependencies ;=) ;=) The reason is that we want to show them on package.json to be able to run this app when we download it from git." />
@@ -606,7 +605,8 @@
     <MESSAGE value="The webpack dev server loads the bundle file from memory, so it is faster. We can then delete the bundle.js being generate in our projet. The fact is that we can also generate it using npm run build, I mean, using webpack to create a huge bundle, which in the end would be needed to let it being server to the public" />
     <MESSAGE value="We have added the transform-class-properties babel plugin to use the lastest js feature to write shorther class properties" />
     <MESSAGE value="We can replace constructor properties with inline ones" />
-    <option name="LAST_COMMIT_MESSAGE" value="We can replace constructor properties with inline ones" />
+    <MESSAGE value="If we had to store the function using the old syntax and then execute it it would fail because of this binding has been broken" />
+    <option name="LAST_COMMIT_MESSAGE" value="If we had to store the function using the old syntax and then execute it it would fail because of this binding has been broken" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1024,7 +1024,7 @@
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding />
         </state>
       </provider>
