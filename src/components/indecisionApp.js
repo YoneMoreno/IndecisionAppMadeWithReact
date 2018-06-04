@@ -5,26 +5,18 @@ import Action from "./Action";
 import Header from "./Header";
 
 export default class IndecisionApp extends React.Component {
-    constructor(props) {
-        super(props);
-        this.handleDeleteOptions = this.handleDeleteOptions.bind(this);
-        this.handlePick = this.handlePick.bind(this);
-        this.handleAddOption = this.handleAddOption.bind(this);
-        this.handleDeleteOption = this.handleDeleteOption.bind(this);
-    }
-
     state = {options: this.props.options};
 
-    handleDeleteOptions() {
+    handleDeleteOptions = () => {
         this.setState(() => ({options: []}));
-    }
+    };
 
-    handlePick() {
+    handlePick = () => {
         const random = Math.floor(Math.random() * this.state.options.length);
         alert(this.state.options[random]);
-    }
+    };
 
-    handleAddOption(option) {
+    handleAddOption = (option) => {
 
         if (!option) {
             return 'Error: the option is empty, please write it';
@@ -33,13 +25,13 @@ export default class IndecisionApp extends React.Component {
         }
 
         this.setState((prevState) => ({options: prevState.options.concat(option)}));
-    }
+    };
 
-    handleDeleteOption(optionToRemove) {
+    handleDeleteOption = (optionToRemove) => {
         this.setState((prevState) => ({
             options: prevState.options.filter((option) => optionToRemove !== option)
         }));
-    }
+    };
 
     componentDidUpdate(prevProps, prevState) {
         if (prevState.options.length !== this.state.options.length) {
@@ -64,7 +56,6 @@ export default class IndecisionApp extends React.Component {
 
 
     render() {
-        const title = 'Indecision';
         const subtitle = 'Put your life into the hands of a computer!!';
         return (
             <div>
