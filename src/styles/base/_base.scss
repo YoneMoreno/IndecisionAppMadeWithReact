@@ -7,3 +7,11 @@ body {
   font-size: $m-size;
   background: $darkBlue-background;
 }
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
