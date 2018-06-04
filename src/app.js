@@ -22,7 +22,7 @@ console.log(getGreeting());
 class NewSyntax {
     name = 'Ainara';
 
-    getGreeting() {
+    getGreeting = () => {
         return `Hi hi!. My name is: ${this.name}`
     }
 }

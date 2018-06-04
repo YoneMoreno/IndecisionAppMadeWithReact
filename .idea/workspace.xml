@@ -20,8 +20,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+            <state relative-caret-position="384">
+              <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -199,13 +199,6 @@
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
       <workItem from="1527927275076" duration="19441000" />
-    </task>
-    <task id="LOCAL-00050" summary="Add options array into IndecisionApp's state. Also we use options.length tod ecide if Action button is disabled.">
-      <created>1527958483134</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1527958483137</updated>
     </task>
     <task id="LOCAL-00051" summary="We need to reference this.state.nameOfPropIntoStateObject even if we are writting inside setState method">
       <created>1527958963498</created>
@@ -543,11 +536,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528101299476</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="To fix the issue with the new syntax we need to create an arrow function">
+      <created>1528101430696</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1528101430696</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61030000" />
+    <option name="totallyTimeSpent" value="61061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -581,7 +581,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="We persist the count in localStorage" />
     <MESSAGE value="UninstaLLING BABEL-CLI and live-server as global dependencies. We install them as local dependencies ;=) ;=) The reason is that we want to show them on package.json to be able to run this app when we download it from git." />
     <MESSAGE value="We use package.json scripts to exeute live--server as nom run serve and babel as npm run build" />
     <MESSAGE value="We have configured webpack" />
@@ -606,7 +605,8 @@
     <MESSAGE value="We can replace constructor properties with inline ones" />
     <MESSAGE value="If we had to store the function using the old syntax and then execute it it would fail because of this binding has been broken" />
     <MESSAGE value="Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
+    <MESSAGE value="To fix the issue with the new syntax we need to create an arrow function" />
+    <option name="LAST_COMMIT_MESSAGE" value="To fix the issue with the new syntax we need to create an arrow function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1023,8 +1023,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        <state relative-caret-position="384">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding />
         </state>
       </provider>
