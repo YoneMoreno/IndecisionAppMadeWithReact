@@ -4,7 +4,6 @@
     <list default="true" id="c41c42e0-b5d7-4533-9a3a-6ce074a7c520" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Option.js" afterPath="$PROJECT_DIR$/src/components/Option.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Options.js" afterPath="$PROJECT_DIR$/src/components/Options.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/_option.scss" afterPath="$PROJECT_DIR$/src/styles/components/_option.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -49,21 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_option.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_option.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/components/_option.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="53" lean-forward="false" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+            <state relative-caret-position="264">
+              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Option.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Option.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Option.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
-              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -146,9 +145,9 @@
         <option value="$PROJECT_DIR$/src/components/indecisionApp.js" />
         <option value="$PROJECT_DIR$/src/styles/components/_widget.scss" />
         <option value="$PROJECT_DIR$/src/styles/styles.scss" />
-        <option value="$PROJECT_DIR$/src/styles/components/_option.scss" />
         <option value="$PROJECT_DIR$/src/components/Options.js" />
         <option value="$PROJECT_DIR$/src/components/Option.js" />
+        <option value="$PROJECT_DIR$/src/styles/components/_option.scss" />
       </list>
     </option>
   </component>
@@ -285,13 +284,6 @@
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
       <workItem from="1527927275076" duration="19441000" />
-    </task>
-    <task id="LOCAL-00089" summary="We need to export as default each componnent preserving its const Name = function. The Name is mandatory because of React dev tools take the Component's name from the const declared ;=)">
-      <created>1528097641740</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1528097641740</updated>
     </task>
     <task id="LOCAL-00090" summary="We have extracted out all components and we show them using App">
       <created>1528098165079</created>
@@ -629,11 +621,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528116735339</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="We have added the count to each item in the Options list">
+      <created>1528117079989</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1528117079989</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76677000" />
+    <option name="totallyTimeSpent" value="76895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -667,7 +666,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="We can see the option hoosen in the Moddal" />
     <MESSAGE value="We can close the modal clicking on the Okay button.&#10;&#10;We have added an event handler called handleDeleteSelectedOption in IndecisionApp.js&#10;We pass it down to the OptionModal component&#10;We attach the OptionModal's okay  button with an onClick to the props.handleDeleteSelectedOption function" />
     <MESSAGE value="We can close the modal both hitting the esc key or clicking on the background" />
     <MESSAGE value="refactor stateless components to instead of using an explicit return being shorter using the builtin arrow functions return ;===)" />
@@ -692,7 +690,8 @@
     <MESSAGE value="We center and put a color to the default mesage shown when the options list is empty" />
     <MESSAGE value="We have the Option content one in the left and the other in the right ;=)" />
     <MESSAGE value="We have added the count to each item in the Options list" />
-    <option name="LAST_COMMIT_MESSAGE" value="We have added the count to each item in the Options list" />
+    <MESSAGE value="Added the count to each Option. Also styled the text of eah option to look white." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the count to each Option. Also styled the text of eah option to look white." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1090,14 +1089,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/components/_option.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="53" lean-forward="false" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Options.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -1109,7 +1100,15 @@
     <entry file="file://$PROJECT_DIR$/src/components/Option.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/_option.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding />
         </state>
       </provider>
