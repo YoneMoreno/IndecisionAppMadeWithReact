@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c41c42e0-b5d7-4533-9a3a-6ce074a7c520" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/components/_option.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Option.js" afterPath="$PROJECT_DIR$/src/components/Option.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/styles.scss" afterPath="$PROJECT_DIR$/src/styles/styles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Options.js" afterPath="$PROJECT_DIR$/src/components/Options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/_option.scss" afterPath="$PROJECT_DIR$/src/styles/components/_option.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,8 +52,8 @@
       <file leaf-file-name="_option.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/components/_option.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="24">
+              <caret line="1" column="53" lean-forward="false" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -63,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/Option.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
-              <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -72,8 +72,8 @@
       <file leaf-file-name="Options.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Options.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="17" column="72" lean-forward="false" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+            <state relative-caret-position="456">
+              <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -144,10 +144,10 @@
         <option value="$PROJECT_DIR$/src/styles/components/_button" />
         <option value="$PROJECT_DIR$/src/styles/base/_settings.scss" />
         <option value="$PROJECT_DIR$/src/components/indecisionApp.js" />
-        <option value="$PROJECT_DIR$/src/components/Options.js" />
         <option value="$PROJECT_DIR$/src/styles/components/_widget.scss" />
         <option value="$PROJECT_DIR$/src/styles/styles.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/_option.scss" />
+        <option value="$PROJECT_DIR$/src/components/Options.js" />
         <option value="$PROJECT_DIR$/src/components/Option.js" />
       </list>
     </option>
@@ -285,13 +285,6 @@
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
       <workItem from="1527927275076" duration="19441000" />
-    </task>
-    <task id="LOCAL-00088" summary="It is strange how webpack does not find the Header file if we include:&#10;&#10;Header.defaultProps = {&#10;    title: 'Indecision'&#10;};">
-      <created>1528097330486</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1528097330487</updated>
     </task>
     <task id="LOCAL-00089" summary="We need to export as default each componnent preserving its const Name = function. The Name is mandatory because of React dev tools take the Component's name from the const declared ;=)">
       <created>1528097641740</created>
@@ -629,11 +622,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528116238589</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="We have the Option content one in the left and the other in the right ;=)">
+      <created>1528116735338</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1528116735339</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76310000" />
+    <option name="totallyTimeSpent" value="76677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -667,8 +667,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="We can open the Modal when we press the Action component. Please note that if the random number being calculated in IndecisionApp is 0, it was being passed in to OptionModal as 0, so when we converted it with !! to a boolean it wwas false and the modal was not showing up. The fix is just use !!+ to convert the number to String and the String to Boolean" />
-    <MESSAGE value="We can take the option randomly choosen in IndecisionApp when we click the Action component and pass it down to the Modal to open it" />
     <MESSAGE value="We can see the option hoosen in the Moddal" />
     <MESSAGE value="We can close the modal clicking on the Okay button.&#10;&#10;We have added an event handler called handleDeleteSelectedOption in IndecisionApp.js&#10;We pass it down to the OptionModal component&#10;We attach the OptionModal's okay  button with an onClick to the props.handleDeleteSelectedOption function" />
     <MESSAGE value="We can close the modal both hitting the esc key or clicking on the background" />
@@ -692,7 +690,9 @@
     <MESSAGE value="We have put the title and remove all buttons inside the widget header of the Options list one in the left and the other in the right. The trick is to use display flex and justify ontent space between ;=) ;=) ;=) ;=)" />
     <MESSAGE value="We surround the options content, the input and the add option button with a nice background color ;=)" />
     <MESSAGE value="We center and put a color to the default mesage shown when the options list is empty" />
-    <option name="LAST_COMMIT_MESSAGE" value="We center and put a color to the default mesage shown when the options list is empty" />
+    <MESSAGE value="We have the Option content one in the left and the other in the right ;=)" />
+    <MESSAGE value="We have added the count to each item in the Options list" />
+    <option name="LAST_COMMIT_MESSAGE" value="We have added the count to each item in the Options list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1074,14 +1074,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Options.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="17" column="72" lean-forward="false" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/components/_widget.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1100,8 +1092,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/components/_option.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="24">
+          <caret line="1" column="53" lean-forward="false" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Options.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1109,7 +1109,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/Option.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding />
         </state>
       </provider>
