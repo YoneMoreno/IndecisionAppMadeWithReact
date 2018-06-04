@@ -20,8 +20,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state relative-caret-position="72">
+              <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -209,13 +209,6 @@
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
       <workItem from="1527927275076" duration="19441000" />
-    </task>
-    <task id="LOCAL-00058" summary="We can render conditionally subtitle">
-      <created>1528029910448</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1528029910448</updated>
     </task>
     <task id="LOCAL-00059" summary="We can give a default options array using defaultProps in IndecisionApp class">
       <created>1528030058906</created>
@@ -553,11 +546,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528102871321</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="We need to know this technique of passing in JSX as children prop to be able to use third party components">
+      <created>1528103064070</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1528103064070</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62648000" />
+    <option name="totallyTimeSpent" value="62714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -591,8 +591,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="We can export both inline with export default = function, and in a separated line with name as default inside {}" />
-    <MESSAGE value="We can import using webpack modules from third-party libraries" />
     <MESSAGE value="We have download babel core and loader to execute it using webpack. The bjectibve is to parse jsx into es6 and es6 into es5 js when we exeute npm run build scri``t" />
     <MESSAGE value="We can split our app importing and exporting" />
     <MESSAGE value="It is better to use a default export when we have only a class" />
@@ -616,7 +614,9 @@
     <MESSAGE value="Our first step to know how to ps in dinamicaally elements to our react pages" />
     <MESSAGE value="We can inject dinamically content to the layour of our react age" />
     <MESSAGE value="We can inject the Layout content dinamically and access it using props.children ;=)" />
-    <option name="LAST_COMMIT_MESSAGE" value="We can inject the Layout content dinamically and access it using props.children ;=)" />
+    <MESSAGE value="We need to know this technique of passing in JSX as children prop to be able to use third party components" />
+    <MESSAGE value="return back to IndecisionApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="return back to IndecisionApp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1031,8 +1031,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="72">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
           <folding />
         </state>
       </provider>
