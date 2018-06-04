@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c41c42e0-b5d7-4533-9a3a-6ce074a7c520" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/AddOption.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/person.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.js" afterPath="$PROJECT_DIR$/src/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AddOption.js" afterPath="$PROJECT_DIR$/src/components/AddOption.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +21,9 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="48">
+              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -35,9 +31,11 @@
       <file leaf-file-name="AddOption.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/AddOption.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="48">
+              <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+              <folding>
+                <marker date="1528096502904" expanded="true" signature="83:959" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,8 +89,8 @@
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/components/AddOptions.js" />
-        <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/components/AddOption.js" />
+        <option value="$PROJECT_DIR$/src/app.js" />
       </list>
     </option>
   </component>
@@ -208,13 +206,6 @@
       <workItem from="1527888797984" duration="472000" />
       <workItem from="1527889552866" duration="16036000" />
       <workItem from="1527927275076" duration="19441000" />
-    </task>
-    <task id="LOCAL-00034" summary="We should a ternary operator to hide and show details">
-      <created>1527942696668</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1527942696668</updated>
     </task>
     <task id="LOCAL-00035" summary="Clases es6">
       <created>1527944801522</created>
@@ -552,11 +543,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528095866198</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="We can split our app importing and exporting">
+      <created>1528096380917</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1528096380917</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56016000" />
+    <option name="totallyTimeSpent" value="56158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
@@ -590,7 +588,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="We can give a default options array using defaultProps in IndecisionApp class" />
     <MESSAGE value="e have an empty options array as defaultProp" />
     <MESSAGE value="We are using defaaultProps to put a default counter of 0" />
     <MESSAGE value="We have seen that a bug was telling us that IndecisionApp.state.options was undefined and it was due to that we where taking in the state:&#10;&#10;this.state = {&#10;    state: props.state&#10;};&#10;&#10;Where:&#10;&#10;IndecisionApp.defaultPrps = {&#10;    options: []&#10;}&#10;&#10;Which obviously was bad written because of it is spelled defaultProps" />
@@ -615,7 +612,8 @@
     <MESSAGE value="We can import using webpack modules from third-party libraries" />
     <MESSAGE value="We have download babel core and loader to execute it using webpack. The bjectibve is to parse jsx into es6 and es6 into es5 js when we exeute npm run build scri``t" />
     <MESSAGE value="We can split our app importing and exporting" />
-    <option name="LAST_COMMIT_MESSAGE" value="We can split our app importing and exporting" />
+    <MESSAGE value="It is better to use a default export when we have only a class" />
+    <option name="LAST_COMMIT_MESSAGE" value="It is better to use a default export when we have only a class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -886,8 +884,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
-            <marker date="1528096365722" expanded="true" signature="2450:2459" ph="{...}" />
-            <marker date="1528096365722" expanded="true" signature="2450:2457" ph="/*...*/" />
+            <marker date="1528096504298" expanded="true" signature="2450:2459" ph="{...}" />
+            <marker date="1528096504298" expanded="true" signature="2450:2457" ph="/*...*/" />
           </folding>
         </state>
       </provider>
@@ -982,19 +980,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AddOption.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="48">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding>
+            <marker date="1528096502904" expanded="true" signature="83:959" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="48">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

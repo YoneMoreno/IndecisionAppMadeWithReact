@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {AddOption} from "./components/AddOption";
+import AddOption from "./components/AddOption";
 
 class IndecisionApp extends React.Component {
     constructor(props) {
@@ -125,7 +125,6 @@ const Options = (props) => {
         </div>
     );
 }
-
 
 
 const Option = (props) => {

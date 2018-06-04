@@ -1,6 +1,6 @@
 import React from 'react';
 
-export class AddOption extends React.Component {
+export default class AddOption extends React.Component {
     constructor(props) {
         super(props);
         this.handleAddOption = this.handleAddOption.bind(this);
