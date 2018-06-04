@@ -1,9 +1,9 @@
 import React from 'react';
 import Modal from 'react-modal';
 
-const OptionModal = () => (
+const OptionModal = (props) => (
     <Modal
-        isOpen={true}
+        isOpen={!!props.selectedOption}
         contentLabel={"Selected Option"}
     >
         <h3>"Selected Option"</h3>
