@@ -21,7 +21,12 @@ console.log(getGreeting());
 
 class NewSyntax {
     name = 'Ainara';
+
+    getGreeting() {
+        return `Hi hi!. My name is: ${this.name}`
+    }
 }
 
 const newSyntax = new NewSyntax();
-console.log(newSyntax);
+const getGreetingNew = newSyntax.getGreeting;
+console.log(getGreetingNew());
